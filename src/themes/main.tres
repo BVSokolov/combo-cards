@@ -1,0 +1,32 @@
+[gd_resource type="Theme" load_steps=7 format=3 uid="uid://cgtt3m2qrfdic"]
+
+[ext_resource type="Texture2D" uid="uid://bjvcreldsyouo" path="res://src/assets/images/card_back.png" id="1_fuxyg"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5fjx1"]
+bg_color = Color(0, 0, 0, 0.282353)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_1j2wj"]
+texture = ExtResource("1_fuxyg")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_dufae"]
+texture = ExtResource("1_fuxyg")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_l2yc5"]
+texture = ExtResource("1_fuxyg")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_fuxyg"]
+texture = ExtResource("1_fuxyg")
+
+[resource]
+CardSlot/base_type = &"PanelContainer"
+CardSlot/styles/panel = SubResource("StyleBoxFlat_5fjx1")
+PlayerDeck/base_type = &"Button"
+PlayerDeck/styles/hover = SubResource("StyleBoxTexture_1j2wj")
+PlayerDeck/styles/hover_pressed = SubResource("StyleBoxTexture_dufae")
+PlayerDeck/styles/normal = SubResource("StyleBoxTexture_l2yc5")
+PlayerDeck/styles/pressed = SubResource("StyleBoxTexture_fuxyg")
+ScreenMargin/base_type = &"MarginContainer"
+ScreenMargin/constants/margin_bottom = 24
+ScreenMargin/constants/margin_left = 24
+ScreenMargin/constants/margin_right = 24
+ScreenMargin/constants/margin_top = 24

@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3 uid="uid://c704thugydl41"]
+
+[ext_resource type="Theme" uid="uid://cgtt3m2qrfdic" path="res://src/themes/main.tres" id="1_3we7c"]
+[ext_resource type="PackedScene" uid="uid://c5yctegu3uyp4" path="res://src/scenes/CardSlot/CardSlot.tscn" id="2_4yeh3"]
+[ext_resource type="Texture2D" uid="uid://bjvcreldsyouo" path="res://src/assets/images/card_back.png" id="3_438eq"]
+
+[node name="Events" type="CanvasLayer"]
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+theme = ExtResource("1_3we7c")
+theme_type_variation = &"ScreenMargin"
+
+[node name="DeckAndSlot" type="HBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Deck" parent="MarginContainer/DeckAndSlot" instance=ExtResource("2_4yeh3")]
+layout_mode = 2
+
+[node name="CardBack" type="TextureRect" parent="MarginContainer/DeckAndSlot/Deck"]
+layout_mode = 2
+texture = ExtResource("3_438eq")
+expand_mode = 4
+stretch_mode = 5
+
+[node name="CardSlot" parent="MarginContainer/DeckAndSlot" instance=ExtResource("2_4yeh3")]
+layout_mode = 2

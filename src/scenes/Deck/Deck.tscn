@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://uwxw2m4rypp5"]
+
+[ext_resource type="Theme" uid="uid://cgtt3m2qrfdic" path="res://src/themes/main.tres" id="1_k0t7o"]
+[ext_resource type="Script" uid="uid://btscutt2c1k5y" path="res://src/scenes/Deck/Deck.gd" id="2_4bncu"]
+
+[node name="Deck" type="Button"]
+custom_minimum_size = Vector2(120, 168)
+offset_right = 120.0
+offset_bottom = 168.0
+theme = ExtResource("1_k0t7o")
+theme_type_variation = &"PlayerDeck"
+script = ExtResource("2_4bncu")

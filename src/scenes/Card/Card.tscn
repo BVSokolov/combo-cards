@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://bqnexigap7rvi"]
+
+[ext_resource type="Texture2D" uid="uid://8nccskpu7g6a" path="res://src/assets/images/card_front.png" id="2_6wxiw"]
+[ext_resource type="Texture2D" uid="uid://vjkwm6wvbwtg" path="res://src/assets/images/card_veg.png" id="3_jtutg"]
+
+[node name="CardFront" type="TextureRect"]
+custom_minimum_size = Vector2(120, 168)
+offset_right = 120.0
+offset_bottom = 168.0
+texture = ExtResource("2_6wxiw")
+expand_mode = 4
+stretch_mode = 5
+
+[node name="CardText" type="TextureRect" parent="."]
+layout_mode = 2
+offset_right = 120.0
+offset_bottom = 168.0
+texture = ExtResource("3_jtutg")
+expand_mode = 4
+stretch_mode = 5

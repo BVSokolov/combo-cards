@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://c5yctegu3uyp4"]
+
+[ext_resource type="Theme" uid="uid://cgtt3m2qrfdic" path="res://src/themes/main.tres" id="1_lbk8q"]
+
+[node name="CardSlot" type="PanelContainer"]
+custom_minimum_size = Vector2(120, 168)
+theme = ExtResource("1_lbk8q")
+theme_type_variation = &"CardSlot"
