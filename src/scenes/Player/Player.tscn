@@ -11,49 +11,48 @@
 [ext_resource type="PackedScene" uid="uid://uwxw2m4rypp5" path="res://src/scenes/Deck/Deck.tscn" id="5_i1tti"]
 [ext_resource type="Script" uid="uid://c5gyruv8jptv1" path="res://src/resources/Card/Player/Oil.gd" id="6_t61j7"]
 
-[sub_resource type="Resource" id="Resource_tgjvv"]
-script = ExtResource("3_x5opu")
-metadata/_custom_type_script = "uid://b42lvlav8tec5"
-
 [sub_resource type="Resource" id="Resource_qbrp6"]
-script = ExtResource("2_6r4mo")
-card = SubResource("Resource_tgjvv")
-count = 1
-metadata/_custom_type_script = "uid://dn3bjdtw18ykg"
-
-[sub_resource type="Resource" id="Resource_ds82a"]
 script = ExtResource("4_qbrp6")
 metadata/_custom_type_script = "uid://30lst6iterhy"
 
-[sub_resource type="Resource" id="Resource_01ffs"]
+[sub_resource type="Resource" id="Resource_7p6s4"]
 script = ExtResource("2_6r4mo")
-card = SubResource("Resource_ds82a")
+card = SubResource("Resource_qbrp6")
 count = 1
 metadata/_custom_type_script = "uid://dn3bjdtw18ykg"
 
-[sub_resource type="Resource" id="Resource_b87m1"]
+[sub_resource type="Resource" id="Resource_t61j7"]
 script = ExtResource("5_7p6s4")
 metadata/_custom_type_script = "uid://dm3uu8k5i5jnu"
 
-[sub_resource type="Resource" id="Resource_1i85u"]
+[sub_resource type="Resource" id="Resource_ds82a"]
 script = ExtResource("2_6r4mo")
-card = SubResource("Resource_b87m1")
+card = SubResource("Resource_t61j7")
 count = 1
 metadata/_custom_type_script = "uid://dn3bjdtw18ykg"
 
-[sub_resource type="Resource" id="Resource_tyroy"]
+[sub_resource type="Resource" id="Resource_01ffs"]
 script = ExtResource("6_t61j7")
 metadata/_custom_type_script = "uid://c5gyruv8jptv1"
 
-[sub_resource type="Resource" id="Resource_g2m8v"]
+[sub_resource type="Resource" id="Resource_b87m1"]
 script = ExtResource("2_6r4mo")
-card = SubResource("Resource_tyroy")
+card = SubResource("Resource_01ffs")
+count = 1
+metadata/_custom_type_script = "uid://dn3bjdtw18ykg"
+
+[sub_resource type="Resource" id="Resource_1i85u"]
+script = ExtResource("3_x5opu")
+metadata/_custom_type_script = "uid://b42lvlav8tec5"
+
+[sub_resource type="Resource" id="Resource_tyroy"]
+script = ExtResource("2_6r4mo")
+card = SubResource("Resource_1i85u")
 count = 1
 metadata/_custom_type_script = "uid://dn3bjdtw18ykg"
 
 [node name="Player" type="CanvasLayer"]
 script = ExtResource("1_i1tti")
-player_deck = Array[ExtResource("2_6r4mo")]([SubResource("Resource_qbrp6"), SubResource("Resource_01ffs"), SubResource("Resource_1i85u"), SubResource("Resource_g2m8v")])
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 anchors_preset = 12
@@ -103,35 +102,36 @@ layout_mode = 2
 layout_mode = 2
 
 [node name="Card" parent="MarginContainer/HBoxContainer/PlayerArea/CardHandAndDeck/CardHand/CardSlot" instance=ExtResource("1_dct3b")]
-visible = false
 layout_mode = 2
+disabled = true
 
 [node name="CardSlot_2" parent="MarginContainer/HBoxContainer/PlayerArea/CardHandAndDeck/CardHand" instance=ExtResource("2_yifjk")]
 layout_mode = 2
 
 [node name="Card" parent="MarginContainer/HBoxContainer/PlayerArea/CardHandAndDeck/CardHand/CardSlot_2" instance=ExtResource("1_dct3b")]
-visible = false
 layout_mode = 2
+disabled = true
 
 [node name="CardSlot_3" parent="MarginContainer/HBoxContainer/PlayerArea/CardHandAndDeck/CardHand" instance=ExtResource("2_yifjk")]
 layout_mode = 2
 
 [node name="Card" parent="MarginContainer/HBoxContainer/PlayerArea/CardHandAndDeck/CardHand/CardSlot_3" instance=ExtResource("1_dct3b")]
-visible = false
 layout_mode = 2
+disabled = true
 
 [node name="CardSlot_4" parent="MarginContainer/HBoxContainer/PlayerArea/CardHandAndDeck/CardHand" instance=ExtResource("2_yifjk")]
 layout_mode = 2
 
 [node name="Card" parent="MarginContainer/HBoxContainer/PlayerArea/CardHandAndDeck/CardHand/CardSlot_4" instance=ExtResource("1_dct3b")]
-visible = false
 layout_mode = 2
+disabled = true
 
 [node name="CardDeckSlot" parent="MarginContainer/HBoxContainer/PlayerArea/CardHandAndDeck" instance=ExtResource("2_yifjk")]
 layout_mode = 2
 
 [node name="Deck" parent="MarginContainer/HBoxContainer/PlayerArea/CardHandAndDeck/CardDeckSlot" instance=ExtResource("5_i1tti")]
 layout_mode = 2
+deck = Array[ExtResource("2_6r4mo")]([SubResource("Resource_7p6s4"), SubResource("Resource_ds82a"), SubResource("Resource_b87m1"), SubResource("Resource_tyroy")])
 
 [node name="Spacer_2" type="Control" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2

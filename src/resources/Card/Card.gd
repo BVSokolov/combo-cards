@@ -1,4 +1,4 @@
-class_name Card extends Resource
+class_name CardResource extends Resource
 
 var texture: Texture2D
 

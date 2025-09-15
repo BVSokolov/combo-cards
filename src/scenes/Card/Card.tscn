@@ -1,20 +1,19 @@
 [gd_scene load_steps=3 format=3 uid="uid://bqnexigap7rvi"]
 
-[ext_resource type="Texture2D" uid="uid://8nccskpu7g6a" path="res://src/assets/images/card_front.png" id="2_6wxiw"]
-[ext_resource type="Texture2D" uid="uid://vjkwm6wvbwtg" path="res://src/assets/images/card_veg.png" id="3_jtutg"]
+[ext_resource type="Theme" uid="uid://cgtt3m2qrfdic" path="res://src/themes/main.tres" id="1_kxlv3"]
+[ext_resource type="Script" uid="uid://c2uion51d20qc" path="res://src/scenes/Card/Card.gd" id="2_wnf23"]
 
-[node name="CardFront" type="TextureRect"]
+[node name="Card" type="Button"]
 custom_minimum_size = Vector2(120, 168)
 offset_right = 120.0
 offset_bottom = 168.0
-texture = ExtResource("2_6wxiw")
-expand_mode = 4
-stretch_mode = 5
+theme = ExtResource("1_kxlv3")
+theme_type_variation = &"PlayerCard"
+script = ExtResource("2_wnf23")
 
-[node name="CardText" type="TextureRect" parent="."]
+[node name="CardFront" type="TextureRect" parent="."]
 layout_mode = 2
 offset_right = 120.0
 offset_bottom = 168.0
-texture = ExtResource("3_jtutg")
 expand_mode = 4
 stretch_mode = 5

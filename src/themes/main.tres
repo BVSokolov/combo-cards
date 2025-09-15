@@ -1,9 +1,48 @@
-[gd_resource type="Theme" load_steps=7 format=3 uid="uid://cgtt3m2qrfdic"]
+[gd_resource type="Theme" load_steps=22 format=3 uid="uid://cgtt3m2qrfdic"]
 
+[ext_resource type="Texture2D" uid="uid://ckub0kvumlh82" path="res://src/assets/images/card_event_front.png" id="1_dufae"]
 [ext_resource type="Texture2D" uid="uid://bjvcreldsyouo" path="res://src/assets/images/card_back.png" id="1_fuxyg"]
+[ext_resource type="Texture2D" uid="uid://dnjw1a6kncues" path="res://src/assets/images/card_event_back.png" id="1_l2yc5"]
+[ext_resource type="Texture2D" uid="uid://8nccskpu7g6a" path="res://src/assets/images/card_front.png" id="2_1j2wj"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5fjx1"]
 bg_color = Color(0, 0, 0, 0.282353)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_an8ux"]
+texture = ExtResource("1_dufae")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_wa5cr"]
+texture = ExtResource("1_dufae")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_8vub5"]
+texture = ExtResource("1_dufae")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_wiktp"]
+texture = ExtResource("1_dufae")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_xx0da"]
+texture = ExtResource("1_l2yc5")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_h60iy"]
+texture = ExtResource("1_l2yc5")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ttm1m"]
+texture = ExtResource("1_l2yc5")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_s0454"]
+texture = ExtResource("1_l2yc5")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_hl2n5"]
+texture = ExtResource("2_1j2wj")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_i8lrl"]
+texture = ExtResource("2_1j2wj")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_sndj2"]
+texture = ExtResource("2_1j2wj")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_sj08a"]
+texture = ExtResource("2_1j2wj")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_1j2wj"]
 texture = ExtResource("1_fuxyg")
@@ -20,6 +59,21 @@ texture = ExtResource("1_fuxyg")
 [resource]
 CardSlot/base_type = &"PanelContainer"
 CardSlot/styles/panel = SubResource("StyleBoxFlat_5fjx1")
+EventCard/base_type = &"Button"
+EventCard/styles/hover = SubResource("StyleBoxTexture_an8ux")
+EventCard/styles/hover_pressed = SubResource("StyleBoxTexture_wa5cr")
+EventCard/styles/normal = SubResource("StyleBoxTexture_8vub5")
+EventCard/styles/pressed = SubResource("StyleBoxTexture_wiktp")
+EventDeck/base_type = &"Button"
+EventDeck/styles/hover = SubResource("StyleBoxTexture_xx0da")
+EventDeck/styles/hover_pressed = SubResource("StyleBoxTexture_h60iy")
+EventDeck/styles/normal = SubResource("StyleBoxTexture_ttm1m")
+EventDeck/styles/pressed = SubResource("StyleBoxTexture_s0454")
+PlayerCard/base_type = &"Button"
+PlayerCard/styles/hover = SubResource("StyleBoxTexture_hl2n5")
+PlayerCard/styles/hover_pressed = SubResource("StyleBoxTexture_i8lrl")
+PlayerCard/styles/normal = SubResource("StyleBoxTexture_sndj2")
+PlayerCard/styles/pressed = SubResource("StyleBoxTexture_sj08a")
 PlayerDeck/base_type = &"Button"
 PlayerDeck/styles/hover = SubResource("StyleBoxTexture_1j2wj")
 PlayerDeck/styles/hover_pressed = SubResource("StyleBoxTexture_dufae")
