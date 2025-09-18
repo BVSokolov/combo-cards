@@ -51,7 +51,7 @@ card = SubResource("Resource_1i85u")
 count = 1
 metadata/_custom_type_script = "uid://dn3bjdtw18ykg"
 
-[node name="Player" type="CanvasLayer"]
+[node name="Player" type="CanvasLayer" groups=["Player"]]
 script = ExtResource("1_i1tti")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
@@ -99,6 +99,7 @@ theme_override_constants/separation = 12
 layout_mode = 2
 
 [node name="CardSlot" parent="MarginContainer/HBoxContainer/PlayerArea/CardHandAndDeck/CardHand" instance=ExtResource("2_yifjk")]
+unique_name_in_owner = true
 layout_mode = 2
 
 [node name="Card" parent="MarginContainer/HBoxContainer/PlayerArea/CardHandAndDeck/CardHand/CardSlot" instance=ExtResource("1_dct3b")]
@@ -106,6 +107,7 @@ layout_mode = 2
 disabled = true
 
 [node name="CardSlot_2" parent="MarginContainer/HBoxContainer/PlayerArea/CardHandAndDeck/CardHand" instance=ExtResource("2_yifjk")]
+unique_name_in_owner = true
 layout_mode = 2
 
 [node name="Card" parent="MarginContainer/HBoxContainer/PlayerArea/CardHandAndDeck/CardHand/CardSlot_2" instance=ExtResource("1_dct3b")]
@@ -113,6 +115,7 @@ layout_mode = 2
 disabled = true
 
 [node name="CardSlot_3" parent="MarginContainer/HBoxContainer/PlayerArea/CardHandAndDeck/CardHand" instance=ExtResource("2_yifjk")]
+unique_name_in_owner = true
 layout_mode = 2
 
 [node name="Card" parent="MarginContainer/HBoxContainer/PlayerArea/CardHandAndDeck/CardHand/CardSlot_3" instance=ExtResource("1_dct3b")]
@@ -120,6 +123,7 @@ layout_mode = 2
 disabled = true
 
 [node name="CardSlot_4" parent="MarginContainer/HBoxContainer/PlayerArea/CardHandAndDeck/CardHand" instance=ExtResource("2_yifjk")]
+unique_name_in_owner = true
 layout_mode = 2
 
 [node name="Card" parent="MarginContainer/HBoxContainer/PlayerArea/CardHandAndDeck/CardHand/CardSlot_4" instance=ExtResource("1_dct3b")]

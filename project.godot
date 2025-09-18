@@ -28,6 +28,11 @@ naming/node_name_num_separator=2
 naming/scene_name_casing=1
 naming/script_name_casing=1
 
+[global_group]
+
+Player=""
+CardListeners=""
+
 [gui]
 
 theme/custom="uid://cgtt3m2qrfdic"

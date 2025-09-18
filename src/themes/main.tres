@@ -1,12 +1,25 @@
-[gd_resource type="Theme" load_steps=22 format=3 uid="uid://cgtt3m2qrfdic"]
+[gd_resource type="Theme" load_steps=27 format=3 uid="uid://cgtt3m2qrfdic"]
 
 [ext_resource type="Texture2D" uid="uid://ckub0kvumlh82" path="res://src/assets/images/card_event_front.png" id="1_dufae"]
 [ext_resource type="Texture2D" uid="uid://bjvcreldsyouo" path="res://src/assets/images/card_back.png" id="1_fuxyg"]
 [ext_resource type="Texture2D" uid="uid://dnjw1a6kncues" path="res://src/assets/images/card_event_back.png" id="1_l2yc5"]
+[ext_resource type="Texture2D" uid="uid://crx02qh4qcrc3" path="res://src/assets/images/card_combined.png" id="1_xx0da"]
 [ext_resource type="Texture2D" uid="uid://8nccskpu7g6a" path="res://src/assets/images/card_front.png" id="2_1j2wj"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5fjx1"]
 bg_color = Color(0, 0, 0, 0.282353)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_bukf1"]
+texture = ExtResource("1_xx0da")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_edhl6"]
+texture = ExtResource("1_xx0da")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_p6ayr"]
+texture = ExtResource("1_xx0da")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_57cdr"]
+texture = ExtResource("1_xx0da")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_an8ux"]
 texture = ExtResource("1_dufae")
@@ -59,6 +72,11 @@ texture = ExtResource("1_fuxyg")
 [resource]
 CardSlot/base_type = &"PanelContainer"
 CardSlot/styles/panel = SubResource("StyleBoxFlat_5fjx1")
+CombinedCard/base_type = &"Button"
+CombinedCard/styles/hover = SubResource("StyleBoxTexture_bukf1")
+CombinedCard/styles/hover_pressed = SubResource("StyleBoxTexture_edhl6")
+CombinedCard/styles/normal = SubResource("StyleBoxTexture_p6ayr")
+CombinedCard/styles/pressed = SubResource("StyleBoxTexture_57cdr")
 EventCard/base_type = &"Button"
 EventCard/styles/hover = SubResource("StyleBoxTexture_an8ux")
 EventCard/styles/hover_pressed = SubResource("StyleBoxTexture_wa5cr")

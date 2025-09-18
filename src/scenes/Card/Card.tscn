@@ -17,3 +17,5 @@ offset_right = 120.0
 offset_bottom = 168.0
 expand_mode = 4
 stretch_mode = 5
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]
