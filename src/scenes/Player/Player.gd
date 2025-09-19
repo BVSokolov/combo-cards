@@ -1,31 +1,32 @@
 extends CanvasLayer
 
 @onready var deck: Deck = get_node('MarginContainer/HBoxContainer/PlayerArea/CardHandAndDeck/CardDeckSlot/Deck')
+@onready var player_hand_nodes = [%CardHand/CardSlot/Card, %CardHand/CardSlot_2/Card, %CardHand/CardSlot_3/Card, %CardHand/CardSlot_4/Card]
+@onready var prepared_hand_nodes = [%PreparedCards/CardSlot/Card, %PreparedCards/CardSlot_2/Card, %PreparedCards/CardSlot_3/Card, %PreparedCards/CardSlot_4/Card]
 
-@export var listener_func_name: String = '_on_player_card_clicked'
-@export var player_hand_size: int = 4
-var current_hand: Array[CardResource] = []
-var current_hand_changed: bool = false
+@export var player_listener_func_name: String = '_on_player_card_clicked'
+@export var prepared_listener_func_name: String = '_on_prepared_card_clicked'
+@export var card_prepared_listener_func_name: String = '_on_newly_cobined_card_prepared'
 
-func init_player_hand_card(card: Card, card_resource: CardResource):
-  card.init(card_resource, listener_func_name)
+var card_played: Card
 
 func _process(_delta):
-  if (current_hand_changed):
-    current_hand_changed = false
-    var card_slot = 0
-    for card in current_hand:
-      if card_slot == 0:
-        init_player_hand_card(%CardSlot/Card, card)
-      if card_slot == 1:
-        init_player_hand_card(%CardSlot_2/Card, card)
-      if card_slot == 2:
-        init_player_hand_card(%CardSlot_3/Card, card)
-      if card_slot == 3:
-        init_player_hand_card(%CardSlot_4/Card, card)
-      card_slot += 1
+  pass
 
 func _on_deck_pressed() -> void:
-  var card = deck.draw_card()
-  current_hand.append(card)
-  current_hand_changed = true
+  var card_resource = deck.draw_card()
+  for player_card in player_hand_nodes:
+    if !player_card.is_init():
+      player_card.init(card_resource, player_listener_func_name)
+      break
+
+func _on_newly_combined_card_pressed(card: Card) -> void:
+  for prepared_card in prepared_hand_nodes:
+    if !prepared_card.is_init():
+      prepared_card.init(card.get_resource(), prepared_listener_func_name)
+      get_tree().call_group("CombinationListeners", card_prepared_listener_func_name, card)
+      card_played.reset()
+      break
+
+func _on_card_card_pressed(card: Card) -> void:
+  card_played = card

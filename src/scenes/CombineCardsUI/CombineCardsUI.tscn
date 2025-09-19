@@ -14,7 +14,7 @@ metadata/_custom_type_script = "uid://du0xw10dl8p4m"
 script = ExtResource("2_qhaxm")
 metadata/_custom_type_script = "uid://b0g0egdnvw6o"
 
-[node name="CombineCardsUI" type="CanvasLayer" groups=["CardListeners"]]
+[node name="CombineCardsUI" type="CanvasLayer" groups=["CardListeners", "CombinationListeners"]]
 script = ExtResource("1_xx4gh")
 combo_mapping = {
 "event_rain": {

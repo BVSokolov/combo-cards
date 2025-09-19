@@ -5,15 +5,12 @@ extends CanvasLayer
 
 @export var listener_func_name: String = '_on_event_card_clicked'
 
-var current_event_card: CardResource
-var current_event_changed: bool = false
-
-
 func _process(_delta):
   pass
 
-
 func _on_deck_pressed() -> void:
-  var card = deck_node.draw_card()
-  current_event_card = card
-  card_node.init(current_event_card, listener_func_name)
+  var card_resource = deck_node.draw_card()
+  card_node.init(card_resource, listener_func_name)
+
+func _on_newly_cobined_card_prepared(_card: Card) -> void:
+  card_node.reset()

@@ -18,7 +18,7 @@ card = SubResource("Resource_sauya")
 count = 1
 metadata/_custom_type_script = "uid://dn3bjdtw18ykg"
 
-[node name="Events" type="CanvasLayer"]
+[node name="Events" type="CanvasLayer" groups=["CombinationListeners"]]
 script = ExtResource("1_sauya")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
