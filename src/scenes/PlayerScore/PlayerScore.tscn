@@ -1,0 +1,42 @@
+[gd_scene load_steps=3 format=3 uid="uid://d2hj3br2ushrv"]
+
+[ext_resource type="Script" uid="uid://dcddb6vafbv3" path="res://src/scenes/PlayerScore/PlayerScore.gd" id="1_0bk6h"]
+[ext_resource type="Theme" uid="uid://cgtt3m2qrfdic" path="res://src/themes/main.tres" id="1_4hyal"]
+
+[node name="PlayerScore" type="CanvasLayer" groups=["CombinationListeners"]]
+script = ExtResource("1_0bk6h")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -48.0
+offset_bottom = 48.0
+grow_horizontal = 0
+theme = ExtResource("1_4hyal")
+theme_type_variation = &"ScreenMargin"
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/PanelContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 4
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 4
+
+[node name="HBoxContainer" type="VBoxContainer" parent="MarginContainer/PanelContainer/MarginContainer"]
+layout_mode = 2
+
+[node name="ScoreLabel" type="Label" parent="MarginContainer/PanelContainer/MarginContainer/HBoxContainer"]
+layout_mode = 2
+text = "total score"
+horizontal_alignment = 2
+uppercase = true
+
+[node name="Score" type="Label" parent="MarginContainer/PanelContainer/MarginContainer/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "0"
+horizontal_alignment = 2

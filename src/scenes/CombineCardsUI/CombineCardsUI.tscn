@@ -1,25 +1,33 @@
-[gd_scene load_steps=8 format=3 uid="uid://b1dwwft11lh1s"]
+[gd_scene load_steps=10 format=3 uid="uid://b1dwwft11lh1s"]
 
 [ext_resource type="PackedScene" uid="uid://c5yctegu3uyp4" path="res://src/scenes/CardSlot/CardSlot.tscn" id="1_bjboo"]
 [ext_resource type="Script" uid="uid://c5lis1532r7gf" path="res://src/scenes/CombineCardsUI/CombineCardsUi.gd" id="1_xx4gh"]
 [ext_resource type="Script" uid="uid://du0xw10dl8p4m" path="res://src/resources/Card/CombinedCards/BucketOfWater.gd" id="2_6ri11"]
 [ext_resource type="Script" uid="uid://b0g0egdnvw6o" path="res://src/resources/Card/CombinedCards/WateredVed.gd" id="2_qhaxm"]
 [ext_resource type="PackedScene" uid="uid://bqnexigap7rvi" path="res://src/scenes/Card/Card.tscn" id="2_xx4gh"]
+[ext_resource type="Script" uid="uid://dbao6lviybww8" path="res://src/resources/Card/CombinedCards/Points.gd" id="4_lxe50"]
 
 [sub_resource type="Resource" id="Resource_lxe50"]
+script = ExtResource("2_qhaxm")
+metadata/_custom_type_script = "uid://b0g0egdnvw6o"
+
+[sub_resource type="Resource" id="Resource_6ol8u"]
 script = ExtResource("2_6ri11")
 metadata/_custom_type_script = "uid://du0xw10dl8p4m"
 
-[sub_resource type="Resource" id="Resource_qhaxm"]
-script = ExtResource("2_qhaxm")
-metadata/_custom_type_script = "uid://b0g0egdnvw6o"
+[sub_resource type="Resource" id="Resource_087yg"]
+script = ExtResource("4_lxe50")
+metadata/_custom_type_script = "uid://dbao6lviybww8"
 
 [node name="CombineCardsUI" type="CanvasLayer" groups=["CardListeners", "CombinationListeners"]]
 script = ExtResource("1_xx4gh")
 combo_mapping = {
+"event_harvest": {
+"watered_veg": SubResource("Resource_087yg")
+},
 "event_rain": {
-&"bucket": SubResource("Resource_lxe50"),
-&"veg": SubResource("Resource_qhaxm")
+&"bucket": SubResource("Resource_6ol8u"),
+&"veg": SubResource("Resource_lxe50")
 }
 }
 
@@ -50,6 +58,12 @@ layout_mode = 2
 theme_type_variation = &"EventCard"
 disabled = true
 
+[node name="CombinedCard_1" parent="VBoxContainer/HBoxContainer/CardSlot" instance=ExtResource("2_xx4gh")]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"CombinedCard"
+disabled = true
+
 [node name="CardSlot_2" parent="VBoxContainer/HBoxContainer" instance=ExtResource("1_bjboo")]
 layout_mode = 2
 
@@ -58,13 +72,19 @@ unique_name_in_owner = true
 layout_mode = 2
 disabled = true
 
+[node name="CombinedCard_2" parent="VBoxContainer/HBoxContainer/CardSlot_2" instance=ExtResource("2_xx4gh")]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"CombinedCard"
+disabled = true
+
 [node name="CenterContainer" type="CenterContainer" parent="VBoxContainer"]
 layout_mode = 2
 
 [node name="CardSlot_3" parent="VBoxContainer/CenterContainer" instance=ExtResource("1_bjboo")]
 layout_mode = 2
 
-[node name="CombinedCard" parent="VBoxContainer/CenterContainer/CardSlot_3" instance=ExtResource("2_xx4gh")]
+[node name="NewCombinedCard" parent="VBoxContainer/CenterContainer/CardSlot_3" instance=ExtResource("2_xx4gh")]
 unique_name_in_owner = true
 layout_mode = 2
 theme_type_variation = &"CombinedCard"

@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
-     inkscape:zoom="0.7351262"
-     inkscape:cx="723.68527"
-     inkscape:cy="480.86982"
+     inkscape:zoom="1.0396254"
+     inkscape:cx="258.74704"
+     inkscape:cy="726.70406"
      inkscape:window-width="2560"
      inkscape:window-height="1369"
      inkscape:window-x="1912"
@@ -196,25 +196,183 @@
       </g>
     </g>
     <g
-       id="g8"
-       inkscape:export-filename="card_bucket.png"
+       id="g13"
+       inkscape:export-filename="card_combined.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       transform="translate(125.64979,-99.324049)">
+       transform="translate(-231.06577,199.03329)">
       <g
-         id="g2-1-8"
-         transform="translate(-1.097682,94.126976)"
-         style="opacity:0">
+         id="g2-7"
+         inkscape:export-filename="card_front.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"
+         transform="translate(216.8986,-9.9331685)">
         <rect
            style="fill:#d9cab9;stroke-width:0.316586"
-           id="rect1-7-5"
+           id="rect1-6"
            width="63.5"
            height="89"
            x="16.856964"
            y="7.5704117" />
         <rect
            style="fill:none;stroke:#c88a21;stroke-width:0.370318;stroke-opacity:1"
-           id="rect2-1-7"
+           id="rect2-14"
+           width="48.959198"
+           height="73.546143"
+           x="24.127365"
+           y="15.297343" />
+      </g>
+      <g
+         id="g9-8"
+         inkscape:export-filename="card_event_front.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"
+         transform="translate(232.35933,-98.262941)"
+         clip-path="url(#clipPath1)">
+        <rect
+           style="fill:#138c76;fill-opacity:1;stroke-width:0.316586"
+           id="rect1-8-2"
+           width="63.5"
+           height="89"
+           x="1.3834251"
+           y="95.900185" />
+        <rect
+           style="fill:none;stroke:#ffa712;stroke-width:0.370318;stroke-opacity:1"
+           id="rect2-2-4"
+           width="48.959198"
+           height="73.546143"
+           x="8.6538258"
+           y="103.62711" />
+        <g
+           id="g3-5"
+           transform="translate(70.629055,-8.6898883)">
+          <rect
+             style="opacity:0;fill:none;stroke:#c88a21;stroke-width:0.333657;stroke-opacity:1"
+             id="rect2-5-1-1-8-5"
+             width="42.870853"
+             height="68.184067"
+             x="-58.931057"
+             y="114.99804" />
+          <path
+             sodipodi:type="star"
+             style="fill:#ffa712;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+             id="path8-1-6-1"
+             inkscape:flatsided="false"
+             sodipodi:sides="4"
+             sodipodi:cx="91.619537"
+             sodipodi:cy="73.804626"
+             sodipodi:r1="20.997686"
+             sodipodi:r2="7.7958035"
+             sodipodi:arg1="-0.012120634"
+             sodipodi:arg2="0.77327753"
+             inkscape:rounded="0"
+             inkscape:randomized="0"
+             d="M 112.61568,73.550127 97.198411,79.249874 91.874036,94.80077 86.17429,79.3835 70.623393,74.059126 86.040664,68.359379 91.365038,52.808482 97.064785,68.225753 Z"
+             transform="matrix(0.26060606,0,0,0.26060606,-77.502761,101.069)" />
+          <path
+             sodipodi:type="star"
+             style="fill:#ffa712;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+             id="path8-2-4-4-5-7"
+             inkscape:flatsided="false"
+             sodipodi:sides="4"
+             sodipodi:cx="91.619537"
+             sodipodi:cy="73.804626"
+             sodipodi:r1="20.997686"
+             sodipodi:r2="7.7958035"
+             sodipodi:arg1="-0.012120634"
+             sodipodi:arg2="0.77327753"
+             inkscape:rounded="0"
+             inkscape:randomized="0"
+             d="M 112.61568,73.550127 97.198411,79.249874 91.874036,94.80077 86.17429,79.3835 70.623393,74.059126 86.040664,68.359379 91.365038,52.808482 97.064785,68.225753 Z"
+             transform="matrix(0.26060606,0,0,0.26060606,-45.241701,158.64328)" />
+        </g>
+      </g>
+      <g
+         id="g9-8-8"
+         inkscape:export-filename="card_event_front.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"
+         transform="rotate(180,149.3259,91.268714)"
+         clip-path="url(#clipPath1-2)">
+        <rect
+           style="fill:#138c76;fill-opacity:1;stroke-width:0.316586"
+           id="rect1-8-2-5"
+           width="63.5"
+           height="89"
+           x="1.3834251"
+           y="95.900185" />
+        <rect
+           style="fill:none;stroke:#ffa712;stroke-width:0.370318;stroke-opacity:1"
+           id="rect2-2-4-7"
+           width="48.959198"
+           height="73.546143"
+           x="8.6538258"
+           y="103.62711" />
+        <g
+           id="g3-5-6"
+           transform="translate(70.629055,-8.6898883)">
+          <rect
+             style="opacity:0;fill:none;stroke:#c88a21;stroke-width:0.333657;stroke-opacity:1"
+             id="rect2-5-1-1-8-5-1"
+             width="42.870853"
+             height="68.184067"
+             x="-58.931057"
+             y="114.99804" />
+          <path
+             sodipodi:type="star"
+             style="fill:#ffa712;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+             id="path8-1-6-1-8"
+             inkscape:flatsided="false"
+             sodipodi:sides="4"
+             sodipodi:cx="91.619537"
+             sodipodi:cy="73.804626"
+             sodipodi:r1="20.997686"
+             sodipodi:r2="7.7958035"
+             sodipodi:arg1="-0.012120634"
+             sodipodi:arg2="0.77327753"
+             inkscape:rounded="0"
+             inkscape:randomized="0"
+             d="M 112.61568,73.550127 97.198411,79.249874 91.874036,94.80077 86.17429,79.3835 70.623393,74.059126 86.040664,68.359379 91.365038,52.808482 97.064785,68.225753 Z"
+             transform="matrix(0.26060606,0,0,0.26060606,-77.502761,101.069)" />
+          <path
+             sodipodi:type="star"
+             style="fill:#ffa712;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+             id="path8-2-4-4-5-7-9"
+             inkscape:flatsided="false"
+             sodipodi:sides="4"
+             sodipodi:cx="91.619537"
+             sodipodi:cy="73.804626"
+             sodipodi:r1="20.997686"
+             sodipodi:r2="7.7958035"
+             sodipodi:arg1="-0.012120634"
+             sodipodi:arg2="0.77327753"
+             inkscape:rounded="0"
+             inkscape:randomized="0"
+             d="M 112.61568,73.550127 97.198411,79.249874 91.874036,94.80077 86.17429,79.3835 70.623393,74.059126 86.040664,68.359379 91.365038,52.808482 97.064785,68.225753 Z"
+             transform="matrix(0.26060606,0,0,0.26060606,-45.241701,158.64328)" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g8"
+       inkscape:export-filename="card_event_harvest.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="translate(-47.591261,-104.85347)">
+      <g
+         id="g2-1-1-4-1"
+         transform="translate(-89.05808,192.70384)"
+         style="opacity:0">
+        <rect
+           style="fill:#d9cab9;stroke-width:0.316586"
+           id="rect1-7-4-3-4"
+           width="63.5"
+           height="89"
+           x="16.856964"
+           y="7.5704117" />
+        <rect
+           style="fill:none;stroke:#c88a21;stroke-width:0.370318;stroke-opacity:1"
+           id="rect2-1-2-1-2"
            width="48.959198"
            height="73.546143"
            x="24.127365"
@@ -222,17 +380,81 @@
       </g>
       <text
          xml:space="preserve"
-         style="font-size:17.6639px;line-height:1;font-family:Barriecito;-inkscape-font-specification:'Barriecito, Normal';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#229400;fill-opacity:1;stroke:none;stroke-width:0.602177;stroke-opacity:1"
-         x="-76.026848"
-         y="139.70259"
-         id="text2-1-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;line-height:1;font-family:Barriecito;-inkscape-font-specification:'Barriecito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffa712;fill-opacity:1;stroke:none;stroke-width:0.814891;stroke-opacity:1"
+         x="-208.66992"
+         y="140.82881"
+         id="text2-1-3-2-3"
          transform="rotate(-47.695575)"><tspan
            sodipodi:role="line"
-           id="tspan2-5-1"
-           style="fill:#975518;fill-opacity:1;stroke:none;stroke-width:0.602177"
-           x="-76.026848"
-           y="139.70259">BUCKET</tspan></text>
+           id="tspan1"
+           x="-208.66992"
+           y="140.82881">HARVEST</tspan></text>
     </g>
+    <g
+       id="g15"
+       inkscape:export-filename="card_combined_points.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <g
+         id="g2-1-1-4-1-7"
+         transform="translate(-91.488164,191.72557)"
+         style="opacity:0">
+        <rect
+           style="fill:#d9cab9;stroke-width:0.316586"
+           id="rect1-7-4-3-4-6"
+           width="63.5"
+           height="89"
+           x="16.856964"
+           y="7.5704117" />
+        <rect
+           style="fill:none;stroke:#c88a21;stroke-width:0.370318;stroke-opacity:1"
+           id="rect2-1-2-1-2-1"
+           width="48.959198"
+           height="73.546143"
+           x="24.127365"
+           y="15.297343" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;line-height:1;font-family:Barriecito;-inkscape-font-specification:'Barriecito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffa712;fill-opacity:1;stroke:none;stroke-width:0.814891;stroke-opacity:1"
+         x="-209.4082"
+         y="139.29909"
+         id="text2-1-3-2-3-8"
+         transform="rotate(-47.695575)"><tspan
+           sodipodi:role="line"
+           id="tspan8">POINTS</tspan></text>
+    </g>
+    <g
+       id="g2-1-8"
+       transform="translate(124.55211,-5.197073)"
+       style="opacity:0">
+      <rect
+         style="fill:#d9cab9;stroke-width:0.316586"
+         id="rect1-7-5"
+         width="63.5"
+         height="89"
+         x="16.856964"
+         y="7.5704117" />
+      <rect
+         style="fill:none;stroke:#c88a21;stroke-width:0.370318;stroke-opacity:1"
+         id="rect2-1-7"
+         width="48.959198"
+         height="73.546143"
+         x="24.127365"
+         y="15.297343" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:17.6639px;line-height:1;font-family:Barriecito;-inkscape-font-specification:'Barriecito, Normal';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#229400;fill-opacity:1;stroke:none;stroke-width:0.602177;stroke-opacity:1"
+       x="82.002205"
+       y="165.77855"
+       id="text2-1-6"
+       transform="rotate(-47.695575)"><tspan
+         sodipodi:role="line"
+         id="tspan2-5-1"
+         style="fill:#975518;fill-opacity:1;stroke:none;stroke-width:0.602177"
+         x="82.002205"
+         y="165.77855">BUCKET</tspan></text>
     <g
        id="g5"
        inkscape:export-filename="card_veg.png"
@@ -896,162 +1118,90 @@
       </g>
     </g>
     <g
-       id="g13"
-       inkscape:export-filename="card_combined.png"
+       id="g17"
+       transform="translate(-114.77892,-36.647814)"
+       inkscape:export-filename="card_combined_bucket_of_water.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       transform="translate(-231.06577,199.03329)">
+       inkscape:export-ydpi="96">
       <g
-         id="g2-7"
-         inkscape:export-filename="card_front.png"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96"
-         transform="translate(216.8986,-9.9331685)">
+         id="g2-1-8-7"
+         transform="translate(313.60753,136.6788)"
+         style="opacity:0">
         <rect
            style="fill:#d9cab9;stroke-width:0.316586"
-           id="rect1-6"
+           id="rect1-7-5-4"
            width="63.5"
            height="89"
            x="16.856964"
            y="7.5704117" />
         <rect
            style="fill:none;stroke:#c88a21;stroke-width:0.370318;stroke-opacity:1"
-           id="rect2-14"
+           id="rect2-1-7-2"
            width="48.959198"
            height="73.546143"
            x="24.127365"
            y="15.297343" />
       </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1;font-family:Barriecito;-inkscape-font-specification:'Barriecito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#186497;fill-opacity:1;stroke:#114c70;stroke-width:0.602177;stroke-opacity:0.71"
+         x="104.72597"
+         y="388.24802"
+         id="text2-1-6-7"
+         transform="rotate(-47.695575)"><tspan
+           sodipodi:role="line"
+           id="tspan15"
+           x="104.72597"
+           y="388.24802">BUCKET </tspan><tspan
+           sodipodi:role="line"
+           id="tspan16"
+           x="104.72597"
+           y="399.53693">OF</tspan><tspan
+           sodipodi:role="line"
+           id="tspan17"
+           x="104.72597"
+           y="410.82581"> WATER</tspan></text>
+    </g>
+    <g
+       id="g14"
+       transform="translate(-13.488432,-5.3444729)"
+       inkscape:export-filename="card_combined_watered_veg.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <g
-         id="g9-8"
-         inkscape:export-filename="card_event_front.png"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96"
-         transform="translate(232.35933,-98.262941)"
-         clip-path="url(#clipPath1)">
+         id="g4-2"
+         style="opacity:0"
+         transform="translate(218.19476,197.98769)">
         <rect
-           style="fill:#138c76;fill-opacity:1;stroke-width:0.316586"
-           id="rect1-8-2"
+           style="fill:#d9cab9;stroke-width:0.316586"
+           id="rect3-3"
            width="63.5"
            height="89"
-           x="1.3834251"
-           y="95.900185" />
+           x="16.856964"
+           y="7.5704117" />
         <rect
-           style="fill:none;stroke:#ffa712;stroke-width:0.370318;stroke-opacity:1"
-           id="rect2-2-4"
+           style="fill:none;stroke:#c88a21;stroke-width:0.370318;stroke-opacity:1"
+           id="rect4-3"
            width="48.959198"
            height="73.546143"
-           x="8.6538258"
-           y="103.62711" />
-        <g
-           id="g3-5"
-           transform="translate(70.629055,-8.6898883)">
-          <rect
-             style="opacity:0;fill:none;stroke:#c88a21;stroke-width:0.333657;stroke-opacity:1"
-             id="rect2-5-1-1-8-5"
-             width="42.870853"
-             height="68.184067"
-             x="-58.931057"
-             y="114.99804" />
-          <path
-             sodipodi:type="star"
-             style="fill:#ffa712;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-             id="path8-1-6-1"
-             inkscape:flatsided="false"
-             sodipodi:sides="4"
-             sodipodi:cx="91.619537"
-             sodipodi:cy="73.804626"
-             sodipodi:r1="20.997686"
-             sodipodi:r2="7.7958035"
-             sodipodi:arg1="-0.012120634"
-             sodipodi:arg2="0.77327753"
-             inkscape:rounded="0"
-             inkscape:randomized="0"
-             d="M 112.61568,73.550127 97.198411,79.249874 91.874036,94.80077 86.17429,79.3835 70.623393,74.059126 86.040664,68.359379 91.365038,52.808482 97.064785,68.225753 Z"
-             transform="matrix(0.26060606,0,0,0.26060606,-77.502761,101.069)" />
-          <path
-             sodipodi:type="star"
-             style="fill:#ffa712;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-             id="path8-2-4-4-5-7"
-             inkscape:flatsided="false"
-             sodipodi:sides="4"
-             sodipodi:cx="91.619537"
-             sodipodi:cy="73.804626"
-             sodipodi:r1="20.997686"
-             sodipodi:r2="7.7958035"
-             sodipodi:arg1="-0.012120634"
-             sodipodi:arg2="0.77327753"
-             inkscape:rounded="0"
-             inkscape:randomized="0"
-             d="M 112.61568,73.550127 97.198411,79.249874 91.874036,94.80077 86.17429,79.3835 70.623393,74.059126 86.040664,68.359379 91.365038,52.808482 97.064785,68.225753 Z"
-             transform="matrix(0.26060606,0,0,0.26060606,-45.241701,158.64328)" />
-        </g>
+           x="24.127365"
+           y="15.297343" />
       </g>
-      <g
-         id="g9-8-8"
-         inkscape:export-filename="card_event_front.png"
-         inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96"
-         transform="rotate(180,149.3259,91.268714)"
-         clip-path="url(#clipPath1-2)">
-        <rect
-           style="fill:#138c76;fill-opacity:1;stroke-width:0.316586"
-           id="rect1-8-2-5"
-           width="63.5"
-           height="89"
-           x="1.3834251"
-           y="95.900185" />
-        <rect
-           style="fill:none;stroke:#ffa712;stroke-width:0.370318;stroke-opacity:1"
-           id="rect2-2-4-7"
-           width="48.959198"
-           height="73.546143"
-           x="8.6538258"
-           y="103.62711" />
-        <g
-           id="g3-5-6"
-           transform="translate(70.629055,-8.6898883)">
-          <rect
-             style="opacity:0;fill:none;stroke:#c88a21;stroke-width:0.333657;stroke-opacity:1"
-             id="rect2-5-1-1-8-5-1"
-             width="42.870853"
-             height="68.184067"
-             x="-58.931057"
-             y="114.99804" />
-          <path
-             sodipodi:type="star"
-             style="fill:#ffa712;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-             id="path8-1-6-1-8"
-             inkscape:flatsided="false"
-             sodipodi:sides="4"
-             sodipodi:cx="91.619537"
-             sodipodi:cy="73.804626"
-             sodipodi:r1="20.997686"
-             sodipodi:r2="7.7958035"
-             sodipodi:arg1="-0.012120634"
-             sodipodi:arg2="0.77327753"
-             inkscape:rounded="0"
-             inkscape:randomized="0"
-             d="M 112.61568,73.550127 97.198411,79.249874 91.874036,94.80077 86.17429,79.3835 70.623393,74.059126 86.040664,68.359379 91.365038,52.808482 97.064785,68.225753 Z"
-             transform="matrix(0.26060606,0,0,0.26060606,-77.502761,101.069)" />
-          <path
-             sodipodi:type="star"
-             style="fill:#ffa712;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-             id="path8-2-4-4-5-7-9"
-             inkscape:flatsided="false"
-             sodipodi:sides="4"
-             sodipodi:cx="91.619537"
-             sodipodi:cy="73.804626"
-             sodipodi:r1="20.997686"
-             sodipodi:r2="7.7958035"
-             sodipodi:arg1="-0.012120634"
-             sodipodi:arg2="0.77327753"
-             inkscape:rounded="0"
-             inkscape:randomized="0"
-             d="M 112.61568,73.550127 97.198411,79.249874 91.874036,94.80077 86.17429,79.3835 70.623393,74.059126 86.040664,68.359379 91.365038,52.808482 97.064785,68.225753 Z"
-             transform="matrix(0.26060606,0,0,0.26060606,-45.241701,158.64328)" />
-        </g>
-      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;line-height:1;font-family:Barriecito;-inkscape-font-specification:'Barriecito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#4ebda4;fill-opacity:1;stroke:#296f5f;stroke-width:0.814891;stroke-opacity:0.710762"
+         x="-3.9214952"
+         y="370.00339"
+         id="text2-3"
+         transform="rotate(-47.695575)"><tspan
+           sodipodi:role="line"
+           id="tspan13"
+           x="-3.9214952"
+           y="370.00339">WATERED </tspan><tspan
+           sodipodi:role="line"
+           id="tspan14"
+           x="-3.9214952"
+           y="384.1145">VEG</tspan></text>
     </g>
   </g>
 </svg>

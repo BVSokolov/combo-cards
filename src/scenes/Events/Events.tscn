@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://c704thugydl41"]
+[gd_scene load_steps=13 format=3 uid="uid://c704thugydl41"]
 
 [ext_resource type="Theme" uid="uid://cgtt3m2qrfdic" path="res://src/themes/main.tres" id="1_3we7c"]
 [ext_resource type="Script" uid="uid://wsgi4mgpl4n1" path="res://src/scenes/Events/Events.gd" id="1_sauya"]
@@ -7,6 +7,17 @@
 [ext_resource type="Script" uid="uid://dn3bjdtw18ykg" path="res://src/resources/Deck/Card.gd" id="3_438eq"]
 [ext_resource type="Script" uid="uid://c6tet8khycg8l" path="res://src/resources/Card/Event/Rain.gd" id="4_pi7bi"]
 [ext_resource type="PackedScene" uid="uid://bqnexigap7rvi" path="res://src/scenes/Card/Card.tscn" id="7_coojt"]
+[ext_resource type="Script" uid="uid://o602btma25vw" path="res://src/resources/Card/Event/Harvest.gd" id="7_yxu3p"]
+
+[sub_resource type="Resource" id="Resource_61n5f"]
+script = ExtResource("7_yxu3p")
+metadata/_custom_type_script = "uid://o602btma25vw"
+
+[sub_resource type="Resource" id="Resource_krtnc"]
+script = ExtResource("3_438eq")
+card = SubResource("Resource_61n5f")
+count = 1
+metadata/_custom_type_script = "uid://dn3bjdtw18ykg"
 
 [sub_resource type="Resource" id="Resource_sauya"]
 script = ExtResource("4_pi7bi")
@@ -31,17 +42,22 @@ theme_type_variation = &"ScreenMargin"
 layout_mode = 2
 theme_override_constants/separation = 12
 
-[node name="Deck" parent="MarginContainer/DeckAndSlot" instance=ExtResource("2_3we7c")]
+[node name="DeckCardSlot" parent="MarginContainer/DeckAndSlot" instance=ExtResource("2_4yeh3")]
+layout_mode = 2
+
+[node name="Deck" parent="MarginContainer/DeckAndSlot/DeckCardSlot" instance=ExtResource("2_3we7c")]
+unique_name_in_owner = true
 layout_mode = 2
 theme_type_variation = &"EventDeck"
-deck = Array[ExtResource("3_438eq")]([SubResource("Resource_coojt")])
+deck = Array[ExtResource("3_438eq")]([SubResource("Resource_krtnc"), SubResource("Resource_coojt")])
 
 [node name="CardSlot" parent="MarginContainer/DeckAndSlot" instance=ExtResource("2_4yeh3")]
 layout_mode = 2
 
 [node name="Card" parent="MarginContainer/DeckAndSlot/CardSlot" instance=ExtResource("7_coojt")]
+unique_name_in_owner = true
 layout_mode = 2
 theme_type_variation = &"EventCard"
 disabled = true
 
-[connection signal="pressed" from="MarginContainer/DeckAndSlot/Deck" to="." method="_on_deck_pressed"]
+[connection signal="pressed" from="MarginContainer/DeckAndSlot/DeckCardSlot/Deck" to="." method="_on_deck_pressed"]
