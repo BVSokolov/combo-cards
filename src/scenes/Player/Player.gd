@@ -56,12 +56,13 @@ func _on_newly_combined_card_pressed(card: Card) -> void:
     end_phase.emit()
 
   for prepared_card in prepared_hand_nodes:
-    if not prepared_card.is_init():
+    if cards_played.values().has(prepared_card) or not prepared_card.is_init():
       prepared_card.init(card_resource, prepared_card_listener_func_name)
       get_tree().call_group("CombinationListeners", card_prepared_listener_func_name, card)
       
       for card_played in cards_played.values():
-        card_played.reset()
+        if card_played.get_instance_id() != prepared_card.get_instance_id():
+          card_played.reset()
       cards_played.clear()
       print('combo card prepared, end combo phase')
       if current_phase == TurnPhase.NAME.COMBO:
