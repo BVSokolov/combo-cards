@@ -10,7 +10,7 @@ func _ready() -> void:
     cards.resize(deck_card.get_count())
     cards.fill(deck_card.get_card())
     current_game_deck.append_array(cards)
-  # current_game_deck.shuffle()
+  current_game_deck.shuffle()
 
 func _process(_delta):
   if current_game_deck_changed && current_game_deck.size() <= 0:

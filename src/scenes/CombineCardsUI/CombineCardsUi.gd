@@ -1,12 +1,37 @@
 extends CanvasLayer
 
-@export var combo_mapping = {
+@export var test = {
+  'test': null
+}
+
+var combo_mapping = {
   'event_rain': {
-    'veg' = null,
-    'bucket' = null,
+    'veg': WateredVeg.new(),
+    'bucket': BucketOfWater.new(),
+  },
+  'event_sun': {
+    'bucket_of_water': CombinedBucket.new(),
+    'watered_veg': CombinedVeg.new(),
+    'veg': SundriedVeg.new()
+  },
+  'event_bloom': {
+    'watered_veg': MaturedVeg.new()
+  },
+  'event_preserve': {
+    'jar_of_sundried_veg': Points.new(),
+    'jar_of_sundried_veg_in_oil': Points.new(),
   },
   'event_harvest': {
-    'watered_veg' = null
+    'matured_veg': Points.new(),
+  },
+  'bucket_of_water': {
+    'veg': WateredVeg.new()
+  },
+  'sundried_veg': {
+    'jar': JarOfSundriedVeg.new(),
+  },
+  'jar_of_sundried_veg': {
+    'oil': JarOfSundriedVegInOil.new()
   }
 }
 

@@ -23,15 +23,15 @@
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
-     inkscape:zoom="1.0396254"
-     inkscape:cx="258.74704"
-     inkscape:cy="726.70406"
+     inkscape:zoom="0.71672778"
+     inkscape:cx="-498.79467"
+     inkscape:cy="935.50162"
      inkscape:window-width="2560"
      inkscape:window-height="1369"
      inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false" />
   <defs
      id="defs1">
@@ -53,7 +53,7 @@
     </clipPath>
   </defs>
   <g
-     inkscape:label="Layer 1"
+     inkscape:label="Card Background"
      inkscape:groupmode="layer"
      id="layer1">
     <g
@@ -76,124 +76,6 @@
          height="73.546143"
          x="24.127365"
          y="15.297343" />
-    </g>
-    <g
-       id="g6"
-       inkscape:export-filename="card_oil.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       transform="translate(59.043701,199.78149)">
-      <g
-         id="g2-1"
-         transform="translate(68.074286,-0.95582847)"
-         style="opacity:0">
-        <rect
-           style="fill:#d9cab9;stroke-width:0.316586"
-           id="rect1-7"
-           width="63.5"
-           height="89"
-           x="16.856964"
-           y="7.5704117" />
-        <rect
-           style="fill:none;stroke:#c88a21;stroke-width:0.370318;stroke-opacity:1"
-           id="rect2-1"
-           width="48.959198"
-           height="73.546143"
-           x="24.127365"
-           y="15.297343" />
-      </g>
-      <text
-         xml:space="preserve"
-         style="font-size:23.9035px;line-height:1;font-family:Barriecito;-inkscape-font-specification:'Barriecito, Normal';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#229400;fill-opacity:1;stroke:none;stroke-width:0.814891;stroke-opacity:1"
-         x="40.754417"
-         y="129.09494"
-         id="text2-1"
-         transform="rotate(-47.695575)"><tspan
-           sodipodi:role="line"
-           id="tspan2-5"
-           style="fill:#d88f1d;fill-opacity:1;stroke:none;stroke-width:0.814891"
-           x="40.754417"
-           y="129.09494">OIL</tspan></text>
-    </g>
-    <g
-       id="g7"
-       inkscape:export-filename="card_jar.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       transform="translate(-10.434448,90.347043)">
-      <g
-         id="g2-1-1"
-         transform="translate(138.98262,-1.2204118)"
-         style="opacity:0">
-        <rect
-           style="fill:#d9cab9;stroke-width:0.316586"
-           id="rect1-7-4"
-           width="63.5"
-           height="89"
-           x="16.856964"
-           y="7.5704117" />
-        <rect
-           style="fill:none;stroke:#c88a21;stroke-width:0.370318;stroke-opacity:1"
-           id="rect2-1-2"
-           width="48.959198"
-           height="73.546143"
-           x="24.127365"
-           y="15.297343" />
-      </g>
-      <text
-         xml:space="preserve"
-         style="font-size:23.9035px;line-height:1;font-family:Barriecito;-inkscape-font-specification:'Barriecito, Normal';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#229400;fill-opacity:1;stroke:none;stroke-width:0.814891;stroke-opacity:1"
-         x="88.676346"
-         y="181.35918"
-         id="text2-1-3"
-         transform="rotate(-47.695575)"><tspan
-           sodipodi:role="line"
-           id="tspan2-5-2"
-           style="fill:#16b2c6;fill-opacity:1;stroke:none;stroke-width:0.814891"
-           x="88.676346"
-           y="181.35918">JAR</tspan></text>
-    </g>
-    <g
-       id="g7-5"
-       inkscape:export-filename="card_event_rain.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       transform="translate(-5.6884127,98.446414)">
-      <g
-         id="g1"
-         transform="translate(-217.69157,-7.8164823)">
-        <g
-           id="g2-1-1-4"
-           transform="translate(138.98262,-1.2204118)"
-           style="opacity:0">
-          <rect
-             style="fill:#d9cab9;stroke-width:0.316586"
-             id="rect1-7-4-3"
-             width="63.5"
-             height="89"
-             x="16.856964"
-             y="7.5704117" />
-          <rect
-             style="fill:none;stroke:#c88a21;stroke-width:0.370318;stroke-opacity:1"
-             id="rect2-1-2-1"
-             width="48.959198"
-             height="73.546143"
-             x="24.127365"
-             y="15.297343" />
-        </g>
-        <text
-           xml:space="preserve"
-           style="font-size:23.9035px;line-height:1;font-family:Barriecito;-inkscape-font-specification:'Barriecito, Normal';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffa712;fill-opacity:1;stroke:none;stroke-width:0.814891;stroke-opacity:1"
-           x="88.676346"
-           y="181.35918"
-           id="text2-1-3-2"
-           transform="rotate(-47.695575)"><tspan
-             sodipodi:role="line"
-             id="tspan2-5-2-3"
-             style="fill:#ffa712;fill-opacity:1;stroke:none;stroke-width:0.814891"
-             x="88.676346"
-             y="181.35918">RAIN</tspan></text>
-      </g>
     </g>
     <g
        id="g13"
@@ -354,143 +236,66 @@
       </g>
     </g>
     <g
-       id="g8"
-       inkscape:export-filename="card_event_harvest.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       transform="translate(-47.591261,-104.85347)">
-      <g
-         id="g2-1-1-4-1"
-         transform="translate(-89.05808,192.70384)"
-         style="opacity:0">
-        <rect
-           style="fill:#d9cab9;stroke-width:0.316586"
-           id="rect1-7-4-3-4"
-           width="63.5"
-           height="89"
-           x="16.856964"
-           y="7.5704117" />
-        <rect
-           style="fill:none;stroke:#c88a21;stroke-width:0.370318;stroke-opacity:1"
-           id="rect2-1-2-1-2"
-           width="48.959198"
-           height="73.546143"
-           x="24.127365"
-           y="15.297343" />
-      </g>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;line-height:1;font-family:Barriecito;-inkscape-font-specification:'Barriecito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffa712;fill-opacity:1;stroke:none;stroke-width:0.814891;stroke-opacity:1"
-         x="-208.66992"
-         y="140.82881"
-         id="text2-1-3-2-3"
-         transform="rotate(-47.695575)"><tspan
-           sodipodi:role="line"
-           id="tspan1"
-           x="-208.66992"
-           y="140.82881">HARVEST</tspan></text>
-    </g>
-    <g
-       id="g15"
-       inkscape:export-filename="card_combined_points.png"
+       id="g9"
+       inkscape:export-filename="card_event_front.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
-      <g
-         id="g2-1-1-4-1-7"
-         transform="translate(-91.488164,191.72557)"
-         style="opacity:0">
-        <rect
-           style="fill:#d9cab9;stroke-width:0.316586"
-           id="rect1-7-4-3-4-6"
-           width="63.5"
-           height="89"
-           x="16.856964"
-           y="7.5704117" />
-        <rect
-           style="fill:none;stroke:#c88a21;stroke-width:0.370318;stroke-opacity:1"
-           id="rect2-1-2-1-2-1"
-           width="48.959198"
-           height="73.546143"
-           x="24.127365"
-           y="15.297343" />
-      </g>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;line-height:1;font-family:Barriecito;-inkscape-font-specification:'Barriecito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffa712;fill-opacity:1;stroke:none;stroke-width:0.814891;stroke-opacity:1"
-         x="-209.4082"
-         y="139.29909"
-         id="text2-1-3-2-3-8"
-         transform="rotate(-47.695575)"><tspan
-           sodipodi:role="line"
-           id="tspan8">POINTS</tspan></text>
-    </g>
-    <g
-       id="g2-1-8"
-       transform="translate(124.55211,-5.197073)"
-       style="opacity:0">
       <rect
-         style="fill:#d9cab9;stroke-width:0.316586"
-         id="rect1-7-5"
+         style="fill:#138c76;stroke-width:0.316586;fill-opacity:1"
+         id="rect1-8"
          width="63.5"
          height="89"
-         x="16.856964"
-         y="7.5704117" />
+         x="1.3834251"
+         y="95.900185" />
       <rect
-         style="fill:none;stroke:#c88a21;stroke-width:0.370318;stroke-opacity:1"
-         id="rect2-1-7"
+         style="fill:none;stroke:#ffa712;stroke-width:0.370318;stroke-opacity:1"
+         id="rect2-2"
          width="48.959198"
          height="73.546143"
-         x="24.127365"
-         y="15.297343" />
-    </g>
-    <text
-       xml:space="preserve"
-       style="font-size:17.6639px;line-height:1;font-family:Barriecito;-inkscape-font-specification:'Barriecito, Normal';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#229400;fill-opacity:1;stroke:none;stroke-width:0.602177;stroke-opacity:1"
-       x="82.002205"
-       y="165.77855"
-       id="text2-1-6"
-       transform="rotate(-47.695575)"><tspan
-         sodipodi:role="line"
-         id="tspan2-5-1"
-         style="fill:#975518;fill-opacity:1;stroke:none;stroke-width:0.602177"
-         x="82.002205"
-         y="165.77855">BUCKET</tspan></text>
-    <g
-       id="g5"
-       inkscape:export-filename="card_veg.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       transform="translate(-18.323908,105.10797)">
-      <text
-         xml:space="preserve"
-         style="font-size:23.9035px;line-height:1;font-family:Barriecito;-inkscape-font-specification:'Barriecito, Normal';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#229400;fill-opacity:1;stroke:none;stroke-width:0.814891;stroke-opacity:1"
-         x="-27.765127"
-         y="194.7912"
-         id="text2"
-         transform="rotate(-47.695575)"><tspan
-           sodipodi:role="line"
-           id="tspan2"
-           style="fill:#229400;fill-opacity:1;stroke:none;stroke-width:0.814891"
-           x="-27.765127"
-           y="194.7912">VEG</tspan></text>
+         x="8.6538258"
+         y="103.62711" />
       <g
-         id="g4"
-         style="opacity:0"
-         transform="translate(70.543445,93.937954)">
+         id="g3"
+         transform="translate(70.629055,-8.6898883)">
         <rect
-           style="fill:#d9cab9;stroke-width:0.316586"
-           id="rect3"
-           width="63.5"
-           height="89"
-           x="16.856964"
-           y="7.5704117" />
-        <rect
-           style="fill:none;stroke:#c88a21;stroke-width:0.370318;stroke-opacity:1"
-           id="rect4"
-           width="48.959198"
-           height="73.546143"
-           x="24.127365"
-           y="15.297343" />
+           style="opacity:0;fill:none;stroke:#c88a21;stroke-width:0.333657;stroke-opacity:1"
+           id="rect2-5-1-1-8"
+           width="42.870853"
+           height="68.184067"
+           x="-58.931057"
+           y="114.99804" />
+        <path
+           sodipodi:type="star"
+           style="fill:#ffa712;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+           id="path8-1-6"
+           inkscape:flatsided="false"
+           sodipodi:sides="4"
+           sodipodi:cx="91.619537"
+           sodipodi:cy="73.804626"
+           sodipodi:r1="20.997686"
+           sodipodi:r2="7.7958035"
+           sodipodi:arg1="-0.012120634"
+           sodipodi:arg2="0.77327753"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           d="M 112.61568,73.550127 97.198411,79.249874 91.874036,94.80077 86.17429,79.3835 70.623393,74.059126 86.040664,68.359379 91.365038,52.808482 97.064785,68.225753 Z"
+           transform="matrix(0.26060606,0,0,0.26060606,-77.502761,101.069)" />
+        <path
+           sodipodi:type="star"
+           style="fill:#ffa712;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+           id="path8-2-4-4-5"
+           inkscape:flatsided="false"
+           sodipodi:sides="4"
+           sodipodi:cx="91.619537"
+           sodipodi:cy="73.804626"
+           sodipodi:r1="20.997686"
+           sodipodi:r2="7.7958035"
+           sodipodi:arg1="-0.012120634"
+           sodipodi:arg2="0.77327753"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           d="M 112.61568,73.550127 97.198411,79.249874 91.874036,94.80077 86.17429,79.3835 70.623393,74.059126 86.040664,68.359379 91.365038,52.808482 97.064785,68.225753 Z"
+           transform="matrix(0.26060606,0,0,0.26060606,-45.241701,158.64328)" />
       </g>
     </g>
     <g
@@ -1054,72 +859,503 @@
            transform="matrix(0.26060606,0,0,0.26060606,95.057799,107.20912)" />
       </g>
     </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Card Front"
+     style="display:inline">
     <g
-       id="g9"
-       inkscape:export-filename="card_event_front.png"
+       id="g6"
+       inkscape:export-filename="card_oil.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
-      <rect
-         style="fill:#138c76;stroke-width:0.316586;fill-opacity:1"
-         id="rect1-8"
-         width="63.5"
-         height="89"
-         x="1.3834251"
-         y="95.900185" />
-      <rect
-         style="fill:none;stroke:#ffa712;stroke-width:0.370318;stroke-opacity:1"
-         id="rect2-2"
-         width="48.959198"
-         height="73.546143"
-         x="8.6538258"
-         y="103.62711" />
+       inkscape:export-ydpi="96"
+       transform="translate(214.07206,-4.4456215)">
       <g
-         id="g3"
-         transform="translate(70.629055,-8.6898883)">
+         id="g2-1"
+         transform="translate(68.074286,-0.95582847)"
+         style="opacity:0">
         <rect
-           style="opacity:0;fill:none;stroke:#c88a21;stroke-width:0.333657;stroke-opacity:1"
-           id="rect2-5-1-1-8"
-           width="42.870853"
-           height="68.184067"
-           x="-58.931057"
-           y="114.99804" />
-        <path
-           sodipodi:type="star"
-           style="fill:#ffa712;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-           id="path8-1-6"
-           inkscape:flatsided="false"
-           sodipodi:sides="4"
-           sodipodi:cx="91.619537"
-           sodipodi:cy="73.804626"
-           sodipodi:r1="20.997686"
-           sodipodi:r2="7.7958035"
-           sodipodi:arg1="-0.012120634"
-           sodipodi:arg2="0.77327753"
-           inkscape:rounded="0"
-           inkscape:randomized="0"
-           d="M 112.61568,73.550127 97.198411,79.249874 91.874036,94.80077 86.17429,79.3835 70.623393,74.059126 86.040664,68.359379 91.365038,52.808482 97.064785,68.225753 Z"
-           transform="matrix(0.26060606,0,0,0.26060606,-77.502761,101.069)" />
-        <path
-           sodipodi:type="star"
-           style="fill:#ffa712;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-           id="path8-2-4-4-5"
-           inkscape:flatsided="false"
-           sodipodi:sides="4"
-           sodipodi:cx="91.619537"
-           sodipodi:cy="73.804626"
-           sodipodi:r1="20.997686"
-           sodipodi:r2="7.7958035"
-           sodipodi:arg1="-0.012120634"
-           sodipodi:arg2="0.77327753"
-           inkscape:rounded="0"
-           inkscape:randomized="0"
-           d="M 112.61568,73.550127 97.198411,79.249874 91.874036,94.80077 86.17429,79.3835 70.623393,74.059126 86.040664,68.359379 91.365038,52.808482 97.064785,68.225753 Z"
-           transform="matrix(0.26060606,0,0,0.26060606,-45.241701,158.64328)" />
+           style="fill:#d9cab9;stroke-width:0.316586"
+           id="rect1-7"
+           width="63.5"
+           height="89"
+           x="16.856964"
+           y="7.5704117" />
+        <rect
+           style="fill:none;stroke:#c88a21;stroke-width:0.370318;stroke-opacity:1"
+           id="rect2-1"
+           width="48.959198"
+           height="73.546143"
+           x="24.127365"
+           y="15.297343" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:23.9035px;line-height:1;font-family:Barriecito;-inkscape-font-specification:'Barriecito, Normal';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#229400;fill-opacity:1;stroke:none;stroke-width:0.814891;stroke-opacity:1"
+         x="40.754417"
+         y="129.09494"
+         id="text2-1"
+         transform="rotate(-47.695575)"><tspan
+           sodipodi:role="line"
+           id="tspan2-5"
+           style="fill:#d88f1d;fill-opacity:1;stroke:none;stroke-width:0.814891"
+           x="40.754417"
+           y="129.09494">OIL</tspan></text>
+    </g>
+    <g
+       id="g7"
+       inkscape:export-filename="card_jar.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="translate(221.88377,-4.1810382)">
+      <g
+         id="g2-1-1"
+         transform="translate(138.98262,-1.2204118)"
+         style="opacity:0">
+        <rect
+           style="fill:#d9cab9;stroke-width:0.316586"
+           id="rect1-7-4"
+           width="63.5"
+           height="89"
+           x="16.856964"
+           y="7.5704117" />
+        <rect
+           style="fill:none;stroke:#c88a21;stroke-width:0.370318;stroke-opacity:1"
+           id="rect2-1-2"
+           width="48.959198"
+           height="73.546143"
+           x="24.127365"
+           y="15.297343" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:23.9035px;line-height:1;font-family:Barriecito;-inkscape-font-specification:'Barriecito, Normal';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#229400;fill-opacity:1;stroke:none;stroke-width:0.814891;stroke-opacity:1"
+         x="88.676346"
+         y="181.35918"
+         id="text2-1-3"
+         transform="rotate(-47.695575)"><tspan
+           sodipodi:role="line"
+           id="tspan2-5-2"
+           style="fill:#16b2c6;fill-opacity:1;stroke:none;stroke-width:0.814891"
+           x="88.676346"
+           y="181.35918">JAR</tspan></text>
+    </g>
+    <g
+       id="g7-5"
+       inkscape:export-filename="card_event_rain.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="translate(-7.2360519,96.661824)">
+      <g
+         id="g1"
+         transform="translate(-217.69157,-7.8164823)">
+        <g
+           id="g2-1-1-4"
+           transform="translate(138.98262,-1.2204118)"
+           style="opacity:0">
+          <rect
+             style="fill:#d9cab9;stroke-width:0.316586"
+             id="rect1-7-4-3"
+             width="63.5"
+             height="89"
+             x="16.856964"
+             y="7.5704117" />
+          <rect
+             style="fill:none;stroke:#c88a21;stroke-width:0.370318;stroke-opacity:1"
+             id="rect2-1-2-1"
+             width="48.959198"
+             height="73.546143"
+             x="24.127365"
+             y="15.297343" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-size:23.9035px;line-height:1;font-family:Barriecito;-inkscape-font-specification:'Barriecito, Normal';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffa712;fill-opacity:1;stroke:none;stroke-width:0.814891;stroke-opacity:1"
+           x="88.676346"
+           y="181.35918"
+           id="text2-1-3-2"
+           transform="rotate(-47.695575)"><tspan
+             sodipodi:role="line"
+             id="tspan2-5-2-3"
+             style="fill:#ffa712;fill-opacity:1;stroke:none;stroke-width:0.814891"
+             x="88.676346"
+             y="181.35918">RAIN</tspan></text>
       </g>
     </g>
     <g
+       id="g20"
+       transform="translate(-32.415573,-7.977685)"
+       inkscape:export-filename="card_event_bloom.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <g
+         id="g2-1-1-4-1"
+         transform="translate(-262.16189,95.602615)"
+         style="opacity:0">
+        <rect
+           style="fill:#d9cab9;stroke-width:0.316586"
+           id="rect1-7-4-3-4"
+           width="63.5"
+           height="89"
+           x="16.856964"
+           y="7.5704117" />
+        <rect
+           style="fill:none;stroke:#c88a21;stroke-width:0.370318;stroke-opacity:1"
+           id="rect2-1-2-1-2"
+           width="48.959198"
+           height="73.546143"
+           x="24.127365"
+           y="15.297343" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;line-height:1;font-family:Barriecito;-inkscape-font-specification:'Barriecito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffa712;fill-opacity:1;stroke:none;stroke-width:0.814891;stroke-opacity:1"
+         x="-252.9977"
+         y="-51.508141"
+         id="text2-1-3-2-3"
+         transform="rotate(-47.695575)"><tspan
+           sodipodi:role="line"
+           id="tspan19"
+           x="-252.9977"
+           y="-51.508141">BLOOM</tspan></text>
+    </g>
+    <g
+       id="g16"
+       transform="translate(55.412394,-4.86966)"
+       inkscape:export-filename="card_event_sun.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <g
+         id="g2-1-1-4-1-2"
+         transform="translate(-210.90155,92.49459)"
+         style="opacity:0">
+        <rect
+           style="fill:#d9cab9;stroke-width:0.316586"
+           id="rect1-7-4-3-4-4"
+           width="63.5"
+           height="89"
+           x="16.856964"
+           y="7.5704117" />
+        <rect
+           style="fill:none;stroke:#c88a21;stroke-width:0.370318;stroke-opacity:1"
+           id="rect2-1-2-1-2-5"
+           width="48.959198"
+           height="73.546143"
+           x="24.127365"
+           y="15.297343" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.9889px;line-height:1;font-family:Barriecito;-inkscape-font-specification:'Barriecito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffa712;fill-opacity:1;stroke:none;stroke-width:0.814891;stroke-opacity:1"
+         x="-215.84181"
+         y="-14.162561"
+         id="text2-1-3-2-3-5"
+         transform="rotate(-47.695575)"><tspan
+           sodipodi:role="line"
+           id="tspan3"
+           x="-215.84181"
+           y="-14.162561">SUN</tspan></text>
+    </g>
+    <g
+       id="g18"
+       transform="translate(57.211661,0.520809)"
+       inkscape:export-filename="card_event_hail.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <g
+         id="g2-1-1-4-1-76"
+         transform="translate(-282.24497,87.104121)"
+         style="opacity:0">
+        <rect
+           style="fill:#d9cab9;stroke-width:0.316586"
+           id="rect1-7-4-3-4-1"
+           width="63.5"
+           height="89"
+           x="16.856964"
+           y="7.5704117" />
+        <rect
+           style="fill:none;stroke:#c88a21;stroke-width:0.370318;stroke-opacity:1"
+           id="rect2-1-2-1-2-4"
+           width="48.959198"
+           height="73.546143"
+           x="24.127365"
+           y="15.297343" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.9889px;line-height:1;font-family:Barriecito;-inkscape-font-specification:'Barriecito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffa712;fill-opacity:1;stroke:none;stroke-width:0.814891;stroke-opacity:1"
+         x="-260.92694"
+         y="-70.664238"
+         id="text2-1-3-2-3-2"
+         transform="rotate(-47.695575)"><tspan
+           sodipodi:role="line"
+           id="tspan18"
+           x="-260.92694"
+           y="-70.664238">HAIL</tspan></text>
+    </g>
+    <g
+       id="g21"
+       transform="translate(-27.868396,-11.848675)"
+       inkscape:export-filename="card_event_preserve.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <g
+         id="g2-1-1-4-1-761"
+         transform="translate(-336.25322,99.473605)"
+         style="opacity:0">
+        <rect
+           style="fill:#d9cab9;stroke-width:0.316586"
+           id="rect1-7-4-3-4-8"
+           width="63.5"
+           height="89"
+           x="16.856964"
+           y="7.5704117" />
+        <rect
+           style="fill:none;stroke:#c88a21;stroke-width:0.370318;stroke-opacity:1"
+           id="rect2-1-2-1-2-9"
+           width="48.959198"
+           height="73.546143"
+           x="24.127365"
+           y="15.297343" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.5222px;line-height:1;font-family:Barriecito;-inkscape-font-specification:'Barriecito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffa712;fill-opacity:1;stroke:none;stroke-width:0.814891;stroke-opacity:1"
+         x="-305.81503"
+         y="-105.26951"
+         id="text2-1-3-2-3-27"
+         transform="rotate(-47.695575)"><tspan
+           sodipodi:role="line"
+           id="tspan20"
+           x="-305.81503"
+           y="-105.26951">PRESERVE</tspan></text>
+    </g>
+    <g
+       id="g8-85-2"
+       inkscape:export-filename="card_event_harvest.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="translate(-344.60769,-105.07891)">
+      <g
+         id="g2-1-1-4-1-761-3"
+         transform="translate(-89.05808,192.70384)"
+         style="opacity:0">
+        <rect
+           style="fill:#d9cab9;stroke-width:0.316586"
+           id="rect1-7-4-3-4-8-3"
+           width="63.5"
+           height="89"
+           x="16.856964"
+           y="7.5704117" />
+        <rect
+           style="fill:none;stroke:#c88a21;stroke-width:0.370318;stroke-opacity:1"
+           id="rect2-1-2-1-2-9-4"
+           width="48.959198"
+           height="73.546143"
+           x="24.127365"
+           y="15.297343" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;line-height:1;font-family:Barriecito;-inkscape-font-specification:'Barriecito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffa712;fill-opacity:1;stroke:none;stroke-width:0.814891;stroke-opacity:1"
+         x="-208.66992"
+         y="140.82881"
+         id="text2-1-3-2-3-27-1"
+         transform="rotate(-47.695575)"><tspan
+           sodipodi:role="line"
+           id="tspan1-9-1"
+           x="-208.66992"
+           y="140.82881">HARVEST</tspan></text>
+    </g>
+    <g
+       id="g15"
+       inkscape:export-filename="card_combined_points.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="translate(149.29135,-3.2590542)">
+      <g
+         id="g2-1-1-4-1-7"
+         transform="translate(-91.488164,191.72557)"
+         style="opacity:0">
+        <rect
+           style="fill:#d9cab9;stroke-width:0.316586"
+           id="rect1-7-4-3-4-6"
+           width="63.5"
+           height="89"
+           x="16.856964"
+           y="7.5704117" />
+        <rect
+           style="fill:none;stroke:#c88a21;stroke-width:0.370318;stroke-opacity:1"
+           id="rect2-1-2-1-2-1"
+           width="48.959198"
+           height="73.546143"
+           x="24.127365"
+           y="15.297343" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;line-height:1;font-family:Barriecito;-inkscape-font-specification:'Barriecito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffa712;fill-opacity:1;stroke:none;stroke-width:0.814891;stroke-opacity:1"
+         x="-209.4082"
+         y="139.29909"
+         id="text2-1-3-2-3-8"
+         transform="rotate(-47.695575)"><tspan
+           sodipodi:role="line"
+           id="tspan8"
+           x="-209.4082"
+           y="139.29909">POINTS</tspan></text>
+    </g>
+    <g
+       id="g22"
+       transform="translate(0,0.191793)">
+      <g
+         id="g2-1-8"
+         transform="translate(124.70626,-5.593243)"
+         style="opacity:0">
+        <rect
+           style="fill:#d9cab9;stroke-width:0.316586"
+           id="rect1-7-5"
+           width="63.5"
+           height="89"
+           x="16.856964"
+           y="7.5704117" />
+        <rect
+           style="fill:none;stroke:#c88a21;stroke-width:0.370318;stroke-opacity:1"
+           id="rect2-1-7"
+           width="48.959198"
+           height="73.546143"
+           x="24.127365"
+           y="15.297343" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:17.6639px;line-height:1;font-family:Barriecito;-inkscape-font-specification:'Barriecito, Normal';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#229400;fill-opacity:1;stroke:none;stroke-width:0.602177;stroke-opacity:1"
+         x="82.002205"
+         y="165.77855"
+         id="text2-1-6"
+         transform="rotate(-47.695575)"><tspan
+           sodipodi:role="line"
+           id="tspan2-5-1"
+           style="fill:#975518;fill-opacity:1;stroke:none;stroke-width:0.602177"
+           x="82.002205"
+           y="165.77855">BUCKET</tspan></text>
+    </g>
+    <g
+       id="g22-2"
+       transform="translate(-285.44743,282.91732)"
+       style="display:inline"
+       inkscape:export-filename="card_combined_bucket.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <g
+         id="g2-1-8-8"
+         transform="translate(124.70626,-5.593243)"
+         style="opacity:0">
+        <rect
+           style="fill:#d9cab9;stroke-width:0.316586"
+           id="rect1-7-5-6"
+           width="63.5"
+           height="89"
+           x="16.856964"
+           y="7.5704117" />
+        <rect
+           style="fill:none;stroke:#c88a21;stroke-width:0.370318;stroke-opacity:1"
+           id="rect2-1-7-0"
+           width="48.959198"
+           height="73.546143"
+           x="24.127365"
+           y="15.297343" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:17.6639px;line-height:1;font-family:Barriecito;-inkscape-font-specification:'Barriecito, Normal';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#229400;fill-opacity:1;stroke:none;stroke-width:0.602177;stroke-opacity:1"
+         x="82.002205"
+         y="165.77855"
+         id="text2-1-6-2"
+         transform="rotate(-47.695575)"><tspan
+           sodipodi:role="line"
+           id="tspan2-5-1-4"
+           style="fill:#975518;fill-opacity:1;stroke:none;stroke-width:0.602177"
+           x="82.002205"
+           y="165.77855">BUCKET</tspan></text>
+    </g>
+    <g
+       id="g5"
+       transform="translate(151.9266,-194.72965)">
+      <g
+         id="g4"
+         style="opacity:0"
+         transform="translate(51.499706,189.3282)">
+        <rect
+           style="fill:#d9cab9;stroke-width:0.316586"
+           id="rect3"
+           width="63.5"
+           height="89"
+           x="16.856964"
+           y="7.5704117" />
+        <rect
+           style="fill:none;stroke:#c88a21;stroke-width:0.370318;stroke-opacity:1"
+           id="rect4"
+           width="48.959198"
+           height="73.546143"
+           x="24.127365"
+           y="15.297343" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:23.9035px;line-height:1;font-family:Barriecito;-inkscape-font-specification:'Barriecito, Normal';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#229400;fill-opacity:1;stroke:none;stroke-width:0.814891;stroke-opacity:1"
+         x="-111.13152"
+         y="244.91116"
+         id="text2"
+         transform="rotate(-47.695575)"><tspan
+           sodipodi:role="line"
+           id="tspan2"
+           style="fill:#229400;fill-opacity:1;stroke:none;stroke-width:0.814891"
+           x="-111.13152"
+           y="244.91116">VEG</tspan></text>
+    </g>
+    <g
+       id="g5-6"
+       transform="translate(-215.53801,180.58924)"
+       style="display:inline"
+       inkscape:export-filename="card_combined_veg.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <g
+         id="g4-0"
+         style="opacity:0"
+         transform="translate(51.499706,189.3282)">
+        <rect
+           style="fill:#d9cab9;stroke-width:0.316586"
+           id="rect3-6"
+           width="63.5"
+           height="89"
+           x="16.856964"
+           y="7.5704117" />
+        <rect
+           style="fill:none;stroke:#c88a21;stroke-width:0.370318;stroke-opacity:1"
+           id="rect4-6"
+           width="48.959198"
+           height="73.546143"
+           x="24.127365"
+           y="15.297343" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:23.9035px;line-height:1;font-family:Barriecito;-inkscape-font-specification:'Barriecito, Normal';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#229400;fill-opacity:1;stroke:none;stroke-width:0.814891;stroke-opacity:1"
+         x="-111.13152"
+         y="244.91116"
+         id="text2-18"
+         transform="rotate(-47.695575)"><tspan
+           sodipodi:role="line"
+           id="tspan2-4"
+           style="fill:#229400;fill-opacity:1;stroke:none;stroke-width:0.814891"
+           x="-111.13152"
+           y="244.91116">VEG</tspan></text>
+    </g>
+    <g
        id="g17"
-       transform="translate(-114.77892,-36.647814)"
+       transform="translate(-408.72266,148.75812)"
        inkscape:export-filename="card_combined_bucket_of_water.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
@@ -1164,7 +1400,7 @@
     </g>
     <g
        id="g14"
-       transform="translate(-13.488432,-5.3444729)"
+       transform="translate(-311.41495,-6.6851814)"
        inkscape:export-filename="card_combined_watered_veg.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
@@ -1202,6 +1438,178 @@
            id="tspan14"
            x="-3.9214952"
            y="384.1145">VEG</tspan></text>
+    </g>
+    <g
+       id="g25"
+       inkscape:export-filename="card_combined_matured_veg.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <g
+         id="g4-2-8"
+         style="opacity:0"
+         transform="translate(-301.51212,179.49001)">
+        <rect
+           style="fill:#d9cab9;stroke-width:0.316586"
+           id="rect3-3-2"
+           width="63.5"
+           height="89"
+           x="16.856964"
+           y="7.5704117" />
+        <rect
+           style="fill:none;stroke:#c88a21;stroke-width:0.370318;stroke-opacity:1"
+           id="rect4-3-91"
+           width="48.959198"
+           height="73.546143"
+           x="24.127365"
+           y="15.297343" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;line-height:1;font-family:Barriecito;-inkscape-font-specification:'Barriecito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#d75525;fill-opacity:1;stroke:#6b2a14;stroke-width:0.814891;stroke-opacity:0.71"
+         x="-339.9639"
+         y="-26.410482"
+         id="text2-3-35"
+         transform="rotate(-47.695575)"><tspan
+           sodipodi:role="line"
+           id="tspan24"
+           x="-339.9639"
+           y="-26.410482">MATURED </tspan><tspan
+           sodipodi:role="line"
+           id="tspan25"
+           x="-339.9639"
+           y="-12.299382">VEG</tspan></text>
+    </g>
+    <g
+       id="g23"
+       inkscape:export-filename="card_combined_sundried_veg.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <g
+         id="g4-2-7"
+         style="opacity:0"
+         transform="translate(-161.3082,174.87262)">
+        <rect
+           style="fill:#d9cab9;stroke-width:0.316586"
+           id="rect3-3-7"
+           width="63.5"
+           height="89"
+           x="16.856964"
+           y="7.5704117" />
+        <rect
+           style="fill:none;stroke:#c88a21;stroke-width:0.370318;stroke-opacity:1"
+           id="rect4-3-9"
+           width="48.959198"
+           height="73.546143"
+           x="24.127365"
+           y="15.297343" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;line-height:1;font-family:Barriecito;-inkscape-font-specification:'Barriecito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#acc324;fill-opacity:1;stroke:#7b8d19;stroke-width:0.814891;stroke-opacity:0.71"
+         x="-241.85619"
+         y="74.211426"
+         id="text2-3-3"
+         transform="rotate(-47.695575)"><tspan
+           sodipodi:role="line"
+           id="tspan22"
+           x="-241.85619"
+           y="74.211426">SUNDRIED </tspan><tspan
+           sodipodi:role="line"
+           id="tspan23"
+           x="-241.85619"
+           y="88.322525">VEG</tspan></text>
+    </g>
+    <g
+       id="g36"
+       inkscape:export-filename="card_combined_jar_of_sundried_veg_in_oil.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <g
+         id="g4-2-7-6"
+         style="opacity:0"
+         transform="translate(-374.86345,182.34994)">
+        <rect
+           style="fill:#d9cab9;stroke-width:0.316586"
+           id="rect3-3-7-1"
+           width="63.5"
+           height="89"
+           x="16.856964"
+           y="7.5704117" />
+        <rect
+           style="fill:none;stroke:#c88a21;stroke-width:0.370318;stroke-opacity:1"
+           id="rect4-3-9-5"
+           width="48.959198"
+           height="73.546143"
+           x="24.127365"
+           y="15.297343" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1;font-family:Barriecito;-inkscape-font-specification:'Barriecito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#53a65a;fill-opacity:1;stroke:#3e7941;stroke-width:0.814891;stroke-opacity:0.71"
+         x="-390.94449"
+         y="-89.524643"
+         id="text2-3-3-4"
+         transform="rotate(-47.695575)"><tspan
+           sodipodi:role="line"
+           id="tspan26"
+           x="-390.94449"
+           y="-89.524643">JAR OF </tspan><tspan
+           sodipodi:role="line"
+           id="tspan27"
+           x="-390.94449"
+           y="-76.824646">SUNDRIED </tspan><tspan
+           sodipodi:role="line"
+           id="tspan28"
+           x="-390.94449"
+           y="-64.124641">VEG</tspan></text>
+    </g>
+    <g
+       id="g37"
+       inkscape:export-filename="jar_of_sundried_veg_in_oil.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <g
+         id="g4-2-7-6-2"
+         style="display:inline;opacity:0"
+         transform="translate(-373.16507,277.90869)">
+        <rect
+           style="fill:#d9cab9;stroke-width:0.316586"
+           id="rect3-3-7-1-6"
+           width="63.5"
+           height="89"
+           x="16.856964"
+           y="7.5704117" />
+        <rect
+           style="fill:none;stroke:#c88a21;stroke-width:0.370318;stroke-opacity:1"
+           id="rect4-3-9-5-0"
+           width="48.959198"
+           height="73.546143"
+           x="24.127365"
+           y="15.297343" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1;font-family:Barriecito;-inkscape-font-specification:'Barriecito, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#bfb500;fill-opacity:0.709804;stroke:#6e6b00;stroke-width:0.814891;stroke-opacity:0.709804"
+         x="-462.2204"
+         y="-26.653954"
+         id="text2-3-3-4-1"
+         transform="rotate(-47.695575)"><tspan
+           sodipodi:role="line"
+           id="tspan31"
+           x="-462.2204"
+           y="-26.653954">JAR OF </tspan><tspan
+           sodipodi:role="line"
+           id="tspan32"
+           x="-462.2204"
+           y="-15.365052">SUNDRIED </tspan><tspan
+           sodipodi:role="line"
+           id="tspan33"
+           x="-462.2204"
+           y="-4.0761523">VEG IN </tspan><tspan
+           sodipodi:role="line"
+           id="tspan34"
+           x="-462.2204"
+           y="7.2127481">OIL</tspan></text>
     </g>
   </g>
 </svg>

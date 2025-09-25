@@ -12,8 +12,9 @@ var prepared_card_listener_func_name: String = '_on_prepared_card_clicked'
 var card_prepared_listener_func_name: String = '_on_newly_combined_card_prepared'
 var card_harvested_or_preserved_listener_func_name: String = '_on_newly_combined_card_harvested_or_preserved'
 
-var card_played: PlayerCard
 var current_phase: TurnPhase.NAME = -1
+
+var cards_played: Dictionary = {}
 
 func _process(_delta):
   pass
@@ -42,14 +43,15 @@ func _on_deck_pressed() -> void:
   end_phase.emit()
 
 func _on_newly_combined_card_pressed(card: Card) -> void:
-  if card_played.get_slot_type() == CardSlot.TYPE.PREPARED:
-    card_played.reset()
-  
   var card_resource = card.get_resource()
   # if ['harvested_veg', 'preserved_veg'].has(card_resource.get_card_name()):
   if ['points'].has(card_resource.get_card_name()):
     get_tree().call_group("CombinationListeners", card_harvested_or_preserved_listener_func_name, card)
-    card_played.reset()
+
+    for card_played in cards_played.values():
+      card_played.reset()
+    cards_played.clear()
+
     print('points cashed, end combo phase')
     end_phase.emit()
 
@@ -57,10 +59,15 @@ func _on_newly_combined_card_pressed(card: Card) -> void:
     if not prepared_card.is_init():
       prepared_card.init(card_resource, prepared_card_listener_func_name)
       get_tree().call_group("CombinationListeners", card_prepared_listener_func_name, card)
-      card_played.reset()
+      
+      for card_played in cards_played.values():
+        card_played.reset()
+      cards_played.clear()
       print('combo card prepared, end combo phase')
-      end_phase.emit()
+      if current_phase == TurnPhase.NAME.COMBO:
+        end_phase.emit()
       break
 
+
 func _on_card_card_pressed(card: Card) -> void:
-  card_played = card
+  cards_played[card.get_instance_id()] = card

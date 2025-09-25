@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://c704thugydl41"]
+[gd_scene load_steps=25 format=3 uid="uid://c704thugydl41"]
 
 [ext_resource type="Theme" uid="uid://cgtt3m2qrfdic" path="res://src/themes/main.tres" id="1_3we7c"]
 [ext_resource type="Script" uid="uid://wsgi4mgpl4n1" path="res://src/scenes/Events/Events.gd" id="1_sauya"]
@@ -8,6 +8,10 @@
 [ext_resource type="Script" uid="uid://c6tet8khycg8l" path="res://src/resources/Card/Event/Rain.gd" id="4_pi7bi"]
 [ext_resource type="PackedScene" uid="uid://bqnexigap7rvi" path="res://src/scenes/Card/Card.tscn" id="7_coojt"]
 [ext_resource type="Script" uid="uid://o602btma25vw" path="res://src/resources/Card/Event/Harvest.gd" id="7_yxu3p"]
+[ext_resource type="Script" uid="uid://daq1tp61ii2b" path="res://src/resources/Card/Event/Bloom.gd" id="8_y1mw4"]
+[ext_resource type="Script" uid="uid://daqn5vegrjnn" path="res://src/resources/Card/Event/Hail.gd" id="9_5s00p"]
+[ext_resource type="Script" uid="uid://bx8gcf367whs" path="res://src/resources/Card/Event/Preserve.gd" id="10_n1p0b"]
+[ext_resource type="Script" uid="uid://bifmpt4wxk5eg" path="res://src/resources/Card/Event/Sun.gd" id="11_ulv8i"]
 
 [sub_resource type="Resource" id="Resource_61n5f"]
 script = ExtResource("7_yxu3p")
@@ -26,7 +30,47 @@ metadata/_custom_type_script = "uid://c6tet8khycg8l"
 [sub_resource type="Resource" id="Resource_coojt"]
 script = ExtResource("3_438eq")
 card = SubResource("Resource_sauya")
-count = 1
+count = 0
+metadata/_custom_type_script = "uid://dn3bjdtw18ykg"
+
+[sub_resource type="Resource" id="Resource_2trit"]
+script = ExtResource("8_y1mw4")
+metadata/_custom_type_script = "uid://daq1tp61ii2b"
+
+[sub_resource type="Resource" id="Resource_6deyw"]
+script = ExtResource("3_438eq")
+card = SubResource("Resource_2trit")
+count = 0
+metadata/_custom_type_script = "uid://dn3bjdtw18ykg"
+
+[sub_resource type="Resource" id="Resource_mllvl"]
+script = ExtResource("9_5s00p")
+metadata/_custom_type_script = "uid://daqn5vegrjnn"
+
+[sub_resource type="Resource" id="Resource_c4k5e"]
+script = ExtResource("3_438eq")
+card = SubResource("Resource_mllvl")
+count = 0
+metadata/_custom_type_script = "uid://dn3bjdtw18ykg"
+
+[sub_resource type="Resource" id="Resource_p0gyk"]
+script = ExtResource("10_n1p0b")
+metadata/_custom_type_script = "uid://bx8gcf367whs"
+
+[sub_resource type="Resource" id="Resource_pw0kl"]
+script = ExtResource("3_438eq")
+card = SubResource("Resource_p0gyk")
+count = 4
+metadata/_custom_type_script = "uid://dn3bjdtw18ykg"
+
+[sub_resource type="Resource" id="Resource_y8cop"]
+script = ExtResource("11_ulv8i")
+metadata/_custom_type_script = "uid://bifmpt4wxk5eg"
+
+[sub_resource type="Resource" id="Resource_qvvha"]
+script = ExtResource("3_438eq")
+card = SubResource("Resource_y8cop")
+count = 2
 metadata/_custom_type_script = "uid://dn3bjdtw18ykg"
 
 [node name="Events" type="CanvasLayer" groups=["CombinationListeners", "TurnPhaseComponents"]]
@@ -49,7 +93,7 @@ layout_mode = 2
 unique_name_in_owner = true
 layout_mode = 2
 theme_type_variation = &"EventDeck"
-deck = Array[ExtResource("3_438eq")]([SubResource("Resource_krtnc"), SubResource("Resource_coojt")])
+deck = Array[ExtResource("3_438eq")]([SubResource("Resource_krtnc"), SubResource("Resource_coojt"), SubResource("Resource_6deyw"), SubResource("Resource_c4k5e"), SubResource("Resource_pw0kl"), SubResource("Resource_qvvha")])
 
 [node name="CardSlot" parent="MarginContainer/DeckAndSlot" instance=ExtResource("2_4yeh3")]
 layout_mode = 2

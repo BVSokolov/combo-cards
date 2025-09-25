@@ -56,15 +56,17 @@ draws event card
 - - - prepared wet veg - gives mature veg
 - - - prepared mature veg - increases value of mature veg
 - - preserve
-- - - prepared sundried veg + jar - jar of sundried veg
-- - - prepared jar of sundried veg + oil - jar of sundried veg in oil
 - - harvest
 - - - prepared mature veg - get points
 - - - prepared jar of sunried veg in oil - get lots of points
+
 - card combinations:
 - - prepared bucket of water:
 - - - veg - gives watered veg
-
+- - prepared sundried veg
+- - - jar - jar of sundried veg
+- - prepared jar of sundried veg
+- - - oil - jar of sundried veg in oil
 
 player draw phase
 - can only draw from player deck
