@@ -7,19 +7,19 @@
 [ext_resource type="PackedScene" uid="uid://bqnexigap7rvi" path="res://src/scenes/Card/Card.tscn" id="2_xx4gh"]
 [ext_resource type="Script" uid="uid://dbao6lviybww8" path="res://src/resources/Card/CombinedCards/Points.gd" id="4_lxe50"]
 
-[sub_resource type="Resource" id="Resource_lxe50"]
-script = ExtResource("2_qhaxm")
-metadata/_custom_type_script = "uid://b0g0egdnvw6o"
+[sub_resource type="Resource" id="Resource_087yg"]
+script = ExtResource("4_lxe50")
+metadata/_custom_type_script = "uid://dbao6lviybww8"
 
 [sub_resource type="Resource" id="Resource_6ol8u"]
 script = ExtResource("2_6ri11")
 metadata/_custom_type_script = "uid://du0xw10dl8p4m"
 
-[sub_resource type="Resource" id="Resource_087yg"]
-script = ExtResource("4_lxe50")
-metadata/_custom_type_script = "uid://dbao6lviybww8"
+[sub_resource type="Resource" id="Resource_lxe50"]
+script = ExtResource("2_qhaxm")
+metadata/_custom_type_script = "uid://b0g0egdnvw6o"
 
-[node name="CombineCardsUI" type="CanvasLayer" groups=["CardListeners", "CombinationListeners"]]
+[node name="CombineCardsUI" type="CanvasLayer" groups=["CardListeners", "CombinationListeners", "TurnPhaseComponents"]]
 script = ExtResource("1_xx4gh")
 combo_mapping = {
 "event_harvest": {

@@ -12,6 +12,13 @@ extends CanvasLayer
 
 var combination_left: Card
 var combination_right: Card
+var current_phase: TurnPhase.NAME = -1
+
+
+func change_phase(phase: TurnPhase.NAME):
+  current_phase = phase
+  if current_phase != TurnPhase.NAME.COMBO:
+    reset_combination_slots()
 
 func process_combination():
   if null == combination_left || null == combination_right:
@@ -27,16 +34,25 @@ func process_combination():
 
 
 func _on_event_card_clicked(card: Card) -> void:
+  if current_phase != TurnPhase.NAME.COMBO:
+    return
+
   %EventCard.init(card.get_resource(), '')
   combination_left = card
   process_combination()
 
 func _on_player_card_clicked(card: Card) -> void:
+  if not [TurnPhase.NAME.COMBO, TurnPhase.NAME.COMBO_BONUS].has(current_phase):
+    return
+
   %PlayerCard.init(card.get_resource(), '')
   combination_right = card
   process_combination()
 
 func _on_prepared_card_clicked(card: Card) -> void:
+  if not [TurnPhase.NAME.COMBO, TurnPhase.NAME.COMBO_BONUS].has(current_phase):
+    return
+
   if !%CombinedCard_1.is_init() && !%EventCard.is_init():
     %CombinedCard_1.init(card.get_resource(), '')
     combination_left = card

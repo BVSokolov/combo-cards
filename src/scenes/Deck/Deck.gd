@@ -1,6 +1,5 @@
 class_name Deck extends Button
 
-
 @export var deck: Array[DeckCard]
 var current_game_deck: Array[CardResource] = []
 var current_game_deck_changed: bool = false
@@ -22,5 +21,8 @@ func draw_card() -> CardResource:
   current_game_deck_changed = true
   return current_game_deck.pop_back()
 
-func set_empty():
+func set_empty() -> void:
   set('disabled', true)
+
+func is_empty() -> bool:
+  return get('disabled')

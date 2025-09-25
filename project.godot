@@ -32,6 +32,7 @@ naming/script_name_casing=1
 
 CardListeners=""
 CombinationListeners=""
+TurnPhaseComponents=""
 
 [gui]
 

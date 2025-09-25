@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://dvv524hyphtrv"]
+[gd_scene load_steps=20 format=3 uid="uid://dvv524hyphtrv"]
 
 [ext_resource type="PackedScene" uid="uid://bqnexigap7rvi" path="res://src/scenes/Card/Card.tscn" id="1_dct3b"]
 [ext_resource type="Script" uid="uid://bl13yk30ytecf" path="res://src/scenes/Player/Player.gd" id="1_i1tti"]
@@ -9,6 +9,7 @@
 [ext_resource type="Script" uid="uid://30lst6iterhy" path="res://src/resources/Card/Player/Bucket.gd" id="4_qbrp6"]
 [ext_resource type="Script" uid="uid://dm3uu8k5i5jnu" path="res://src/resources/Card/Player/Jar.gd" id="5_7p6s4"]
 [ext_resource type="PackedScene" uid="uid://uwxw2m4rypp5" path="res://src/scenes/Deck/Deck.tscn" id="5_i1tti"]
+[ext_resource type="Script" uid="uid://c41frv71ytqus" path="res://src/scenes/Card/PlayerCard.gd" id="5_t61j7"]
 [ext_resource type="Script" uid="uid://c5gyruv8jptv1" path="res://src/resources/Card/Player/Oil.gd" id="6_t61j7"]
 
 [sub_resource type="Resource" id="Resource_qbrp6"]
@@ -51,7 +52,7 @@ card = SubResource("Resource_1i85u")
 count = 1
 metadata/_custom_type_script = "uid://dn3bjdtw18ykg"
 
-[node name="Player" type="CanvasLayer" groups=["CardListeners"]]
+[node name="Player" type="CanvasLayer" groups=["CardListeners", "TurnPhaseComponents"]]
 script = ExtResource("1_i1tti")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
@@ -87,6 +88,8 @@ layout_mode = 2
 layout_mode = 2
 theme_type_variation = &"CombinedCard"
 disabled = true
+script = ExtResource("5_t61j7")
+__slot_type = 1
 
 [node name="CardSlot_2" parent="MarginContainer/HBoxContainer/PlayerArea/PreparedCards" instance=ExtResource("2_yifjk")]
 layout_mode = 2
@@ -95,6 +98,8 @@ layout_mode = 2
 layout_mode = 2
 theme_type_variation = &"CombinedCard"
 disabled = true
+script = ExtResource("5_t61j7")
+__slot_type = 1
 
 [node name="CardSlot_3" parent="MarginContainer/HBoxContainer/PlayerArea/PreparedCards" instance=ExtResource("2_yifjk")]
 layout_mode = 2
@@ -103,6 +108,8 @@ layout_mode = 2
 layout_mode = 2
 theme_type_variation = &"CombinedCard"
 disabled = true
+script = ExtResource("5_t61j7")
+__slot_type = 1
 
 [node name="CardSlot_4" parent="MarginContainer/HBoxContainer/PlayerArea/PreparedCards" instance=ExtResource("2_yifjk")]
 layout_mode = 2
@@ -111,6 +118,8 @@ layout_mode = 2
 layout_mode = 2
 theme_type_variation = &"CombinedCard"
 disabled = true
+script = ExtResource("5_t61j7")
+__slot_type = 1
 
 [node name="CardHandAndDeck" type="HBoxContainer" parent="MarginContainer/HBoxContainer/PlayerArea"]
 layout_mode = 2
@@ -126,6 +135,8 @@ layout_mode = 2
 [node name="Card" parent="MarginContainer/HBoxContainer/PlayerArea/CardHandAndDeck/CardHand/CardSlot" instance=ExtResource("1_dct3b")]
 layout_mode = 2
 disabled = true
+script = ExtResource("5_t61j7")
+__slot_type = 0
 
 [node name="CardSlot_2" parent="MarginContainer/HBoxContainer/PlayerArea/CardHandAndDeck/CardHand" instance=ExtResource("2_yifjk")]
 layout_mode = 2
@@ -133,6 +144,8 @@ layout_mode = 2
 [node name="Card" parent="MarginContainer/HBoxContainer/PlayerArea/CardHandAndDeck/CardHand/CardSlot_2" instance=ExtResource("1_dct3b")]
 layout_mode = 2
 disabled = true
+script = ExtResource("5_t61j7")
+__slot_type = 0
 
 [node name="CardSlot_3" parent="MarginContainer/HBoxContainer/PlayerArea/CardHandAndDeck/CardHand" instance=ExtResource("2_yifjk")]
 layout_mode = 2
@@ -140,6 +153,8 @@ layout_mode = 2
 [node name="Card" parent="MarginContainer/HBoxContainer/PlayerArea/CardHandAndDeck/CardHand/CardSlot_3" instance=ExtResource("1_dct3b")]
 layout_mode = 2
 disabled = true
+script = ExtResource("5_t61j7")
+__slot_type = 0
 
 [node name="CardSlot_4" parent="MarginContainer/HBoxContainer/PlayerArea/CardHandAndDeck/CardHand" instance=ExtResource("2_yifjk")]
 layout_mode = 2
@@ -147,6 +162,8 @@ layout_mode = 2
 [node name="Card" parent="MarginContainer/HBoxContainer/PlayerArea/CardHandAndDeck/CardHand/CardSlot_4" instance=ExtResource("1_dct3b")]
 layout_mode = 2
 disabled = true
+script = ExtResource("5_t61j7")
+__slot_type = 0
 
 [node name="CardDeckSlot" parent="MarginContainer/HBoxContainer/PlayerArea/CardHandAndDeck" instance=ExtResource("2_yifjk")]
 layout_mode = 2

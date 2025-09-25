@@ -1,16 +1,29 @@
-[gd_scene load_steps=5 format=3 uid="uid://cc7ftnuks08y1"]
+[gd_scene load_steps=6 format=3 uid="uid://cc7ftnuks08y1"]
 
+[ext_resource type="Script" uid="uid://477mv62sp0sq" path="res://src/scenes/Main/Main.gd" id="1_bb7lw"]
 [ext_resource type="PackedScene" uid="uid://dvv524hyphtrv" path="res://src/scenes/Player/Player.tscn" id="1_mqhj8"]
 [ext_resource type="PackedScene" uid="uid://c704thugydl41" path="res://src/scenes/Events/Events.tscn" id="2_3ioa8"]
 [ext_resource type="PackedScene" uid="uid://b1dwwft11lh1s" path="res://src/scenes/CombineCardsUI/CombineCardsUI.tscn" id="3_5llug"]
-[ext_resource type="PackedScene" uid="uid://d2hj3br2ushrv" path="res://src/scenes/PlayerScore/PlayerScore.tscn" id="4_2avcn"]
+[ext_resource type="PackedScene" uid="uid://d2hj3br2ushrv" path="res://src/scenes/PlayerUI/PlayerUI.tscn" id="4_2avcn"]
 
-[node name="Main" type="Node2D"]
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_bb7lw")
 
 [node name="Player" parent="." instance=ExtResource("1_mqhj8")]
+unique_name_in_owner = true
 
 [node name="Events" parent="." instance=ExtResource("2_3ioa8")]
 
 [node name="CombineCardsUI" parent="." instance=ExtResource("3_5llug")]
 
-[node name="PlayerScore" parent="." instance=ExtResource("4_2avcn")]
+[node name="PlayerUI" parent="." instance=ExtResource("4_2avcn")]
+
+[connection signal="end_phase" from="Player" to="." method="_on_player_end_phase"]
+[connection signal="end_phase" from="Events" to="." method="_on_events_end_phase"]
+[connection signal="end_phase" from="PlayerUI" to="." method="_on_player_ui_end_phase"]

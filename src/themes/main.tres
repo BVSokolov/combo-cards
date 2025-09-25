@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=32 format=3 uid="uid://cgtt3m2qrfdic"]
+[gd_resource type="Theme" load_steps=33 format=3 uid="uid://cgtt3m2qrfdic"]
 
 [ext_resource type="Texture2D" uid="uid://ckub0kvumlh82" path="res://src/assets/images/card_event_front.png" id="1_dufae"]
 [ext_resource type="Texture2D" uid="uid://bjvcreldsyouo" path="res://src/assets/images/card_back.png" id="1_fuxyg"]
@@ -22,6 +22,8 @@ texture = ExtResource("1_xx0da")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_57cdr"]
 texture = ExtResource("1_xx0da")
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_i8lrl"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_h60iy"]
 
@@ -88,6 +90,9 @@ CombinedCard/styles/hover = SubResource("StyleBoxTexture_bukf1")
 CombinedCard/styles/hover_pressed = SubResource("StyleBoxTexture_edhl6")
 CombinedCard/styles/normal = SubResource("StyleBoxTexture_p6ayr")
 CombinedCard/styles/pressed = SubResource("StyleBoxTexture_57cdr")
+EndPhaseButton/base_type = &"Button"
+EndPhaseButton/colors/font_disabled_color = Color(0, 0, 0, 0)
+EndPhaseButton/styles/disabled = SubResource("StyleBoxEmpty_i8lrl")
 EventCard/base_type = &"Button"
 EventCard/styles/disabled = SubResource("StyleBoxEmpty_h60iy")
 EventCard/styles/hover = SubResource("StyleBoxTexture_an8ux")

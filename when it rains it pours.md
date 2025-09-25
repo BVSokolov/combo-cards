@@ -64,3 +64,36 @@ draws event card
 - card combinations:
 - - prepared bucket of water:
 - - - veg - gives watered veg
+
+
+player draw phase
+- can only draw from player deck
+- ends when player hand is full?
+- if deck is empty game ends?
+
+event draw phase
+- can only draw from event deck
+- ends when event is drawn
+
+combo phase:
+- HAS to click on event card (or maybe we just automatically click it)
+- can click on any player card (in hand or prepared)
+- can click on newly combined card
+- automatically ends when newly combined card is prepared
+- can be ended manually by player by pressing a button
+
+combo bonus phase
+- only IF player did NOT manually end combo phase
+- can click on any two player cards (player hand or prepared) to make more combos
+- can only be ended manually by player by pressing a button
+
+then another round starts with player draw phase
+
+
+
+
+card idea: The Joker
+the joker is mixed at a random place in your deck (or predetermined place)
+during gameplay at certain points you get to choose between reward or pushing the joker down a few positions
+during gameplay some events can bring the joker up a few positions
+if joker is drawn game ends
