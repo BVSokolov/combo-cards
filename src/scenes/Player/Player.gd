@@ -19,10 +19,19 @@ var cards_played: Dictionary = {}
 func _process(_delta):
   pass
 
+func is_hand_full() -> bool:
+  for player_card in player_hand_nodes:
+    if not player_card.is_init():
+      return false
+  return true
+
 func change_phase(phase: TurnPhase.NAME):
   current_phase = phase
   if current_phase == TurnPhase.NAME.PLAYER_DRAW:
-      if deck.is_empty():
+      if is_hand_full():
+        print('player hand full, end draw phase')
+        end_phase.emit()
+      elif deck.is_current_deck_empty():
         print('deck exhausted, end game')
         end_game.emit()
 
@@ -35,12 +44,10 @@ func _on_deck_pressed() -> void:
       var card_resource = deck.draw_card()
       player_card.init(card_resource, player_card_listener_func_name)
       break
-
-  for player_card in player_hand_nodes:
-    if not player_card.is_init():
-      return
-  print('player hand full, end draw phase')
-  end_phase.emit()
+  
+  if is_hand_full():
+        print('player hand full, end draw phase')
+        end_phase.emit()
 
 func _on_newly_combined_card_pressed(card: Card) -> void:
   var card_resource = card.get_resource()
@@ -54,6 +61,7 @@ func _on_newly_combined_card_pressed(card: Card) -> void:
 
     print('points cashed, end combo phase')
     end_phase.emit()
+    return
 
   for prepared_card in prepared_hand_nodes:
     if cards_played.values().has(prepared_card) or not prepared_card.is_init():

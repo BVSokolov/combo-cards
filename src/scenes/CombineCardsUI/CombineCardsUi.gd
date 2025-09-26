@@ -1,9 +1,5 @@
 extends CanvasLayer
 
-@export var test = {
-  'test': null
-}
-
 var combo_mapping = {
   'event_rain': {
     'veg': WateredVeg.new(),

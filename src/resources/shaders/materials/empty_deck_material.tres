@@ -1,0 +1,6 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://670ymeucqs1o"]
+
+[ext_resource type="Shader" uid="uid://cr7xvbunqfric" path="res://src/resources/shaders/EmptyDeck.tres" id="1_g36p2"]
+
+[resource]
+shader = ExtResource("1_g36p2")
