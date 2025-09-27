@@ -32,7 +32,7 @@ func change_phase(phase: TurnPhase.NAME):
         print('player hand full, end draw phase')
         end_phase.emit()
       elif deck.is_current_deck_empty():
-        print('deck exhausted, end game')
+        print('player deck exhausted, end game')
         end_game.emit()
 
 func _on_deck_pressed() -> void:

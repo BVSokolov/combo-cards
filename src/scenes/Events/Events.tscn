@@ -20,7 +20,7 @@ metadata/_custom_type_script = "uid://o602btma25vw"
 [sub_resource type="Resource" id="Resource_krtnc"]
 script = ExtResource("3_438eq")
 card = SubResource("Resource_61n5f")
-count = 1
+count = 5
 metadata/_custom_type_script = "uid://dn3bjdtw18ykg"
 
 [sub_resource type="Resource" id="Resource_sauya"]
@@ -30,7 +30,7 @@ metadata/_custom_type_script = "uid://c6tet8khycg8l"
 [sub_resource type="Resource" id="Resource_coojt"]
 script = ExtResource("3_438eq")
 card = SubResource("Resource_sauya")
-count = 0
+count = 10
 metadata/_custom_type_script = "uid://dn3bjdtw18ykg"
 
 [sub_resource type="Resource" id="Resource_2trit"]
@@ -40,7 +40,7 @@ metadata/_custom_type_script = "uid://daq1tp61ii2b"
 [sub_resource type="Resource" id="Resource_6deyw"]
 script = ExtResource("3_438eq")
 card = SubResource("Resource_2trit")
-count = 0
+count = 5
 metadata/_custom_type_script = "uid://dn3bjdtw18ykg"
 
 [sub_resource type="Resource" id="Resource_mllvl"]
@@ -60,7 +60,7 @@ metadata/_custom_type_script = "uid://bx8gcf367whs"
 [sub_resource type="Resource" id="Resource_pw0kl"]
 script = ExtResource("3_438eq")
 card = SubResource("Resource_p0gyk")
-count = 4
+count = 5
 metadata/_custom_type_script = "uid://dn3bjdtw18ykg"
 
 [sub_resource type="Resource" id="Resource_y8cop"]
@@ -70,7 +70,7 @@ metadata/_custom_type_script = "uid://bifmpt4wxk5eg"
 [sub_resource type="Resource" id="Resource_qvvha"]
 script = ExtResource("3_438eq")
 card = SubResource("Resource_y8cop")
-count = 2
+count = 10
 metadata/_custom_type_script = "uid://dn3bjdtw18ykg"
 
 [node name="Events" type="CanvasLayer" groups=["CombinationListeners", "TurnPhaseComponents"]]

@@ -29,3 +29,13 @@ func _on_player_ui_end_phase() -> void:
 
 func _on_events_end_phase() -> void:
   change_phase()
+
+
+func end_game() -> void:
+  print('game ended, reloading main scene')
+
+func _on_player_end_game() -> void:
+  end_game()
+
+func _on_events_end_game() -> void:
+  end_game()

@@ -1,6 +1,7 @@
 extends CanvasLayer
 
 signal end_phase
+signal end_game
 
 @export var listener_func_name: String = '_on_event_card_clicked'
 
@@ -13,6 +14,9 @@ func change_phase(phase: TurnPhase.NAME):
   current_phase = phase
   if current_phase != TurnPhase.NAME.COMBO:
     %Card.reset()
+    if %Deck.is_current_deck_empty():
+      print('event deck exhausted, end game')
+      end_game.emit()
 
 func _on_deck_pressed() -> void:
   if not current_phase == TurnPhase.NAME.EVENT_DRAW:

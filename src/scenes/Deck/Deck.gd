@@ -7,7 +7,6 @@ var empty_deck_material = preload("res://src/resources/shaders/materials/empty_d
 var current_game_deck: Array[CardResource] = []
 
 func _ready() -> void:
-  set_empty()
   for deck_card in deck:
     var cards: Array[CardResource] = []
     cards.resize(deck_card.get_count())
@@ -16,10 +15,10 @@ func _ready() -> void:
   current_game_deck.shuffle()
 
 func draw_card() -> CardResource:
+  var card = current_game_deck.pop_back()
   if is_current_deck_empty():
     set_empty()
-    return null
-  return current_game_deck.pop_back()
+  return card
 
 func set_empty() -> void:
   set("material", empty_deck_material)
