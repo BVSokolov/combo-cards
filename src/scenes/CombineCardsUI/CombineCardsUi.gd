@@ -62,6 +62,7 @@ func _on_event_card_clicked(card: Card) -> void:
 		return
 
 	%LeftCard.init(card.get_resource(), '')
+	%LeftCard.set_variant_event()
 	left_card = card
 	process_combination()
 
@@ -70,6 +71,7 @@ func _on_player_card_clicked(card: Card) -> void:
 		return
 
 	%RightCard.init(card.get_resource(), '')
+	%RightCard.set_variant_player()
 	right_card = card
 	process_combination()
 
@@ -79,9 +81,11 @@ func _on_prepared_card_clicked(card: Card) -> void:
 
 	if not %LeftCard.is_init():
 		%LeftCard.init(card.get_resource(), '')
+		%LeftCard.set_variant_combined()
 		left_card = card
 	else:
 		%RightCard.init(card.get_resource(), '')
+		%RightCard.set_variant_combined()
 		right_card = card
 	process_combination()
 

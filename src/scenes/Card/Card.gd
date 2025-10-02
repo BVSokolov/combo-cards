@@ -34,3 +34,15 @@ func _on_pressed() -> void:
 	card_pressed.emit(self)
 	if __listener_func_name != '':
 		get_tree().call_group("CardListeners", __listener_func_name, self)
+
+func _set_variant(variant_name: String) -> void:
+	set_theme_type_variation(variant_name)
+
+func set_variant_event() -> void:
+	_set_variant('EventCard')
+
+func set_variant_player() -> void:
+	_set_variant('PlayerCard')
+
+func set_variant_combined() -> void:
+	_set_variant('CombinedCard')
