@@ -19,7 +19,6 @@ metadata/_custom_type_script = "uid://30lst6iterhy"
 [sub_resource type="Resource" id="Resource_7p6s4"]
 script = ExtResource("2_6r4mo")
 card = SubResource("Resource_qbrp6")
-count = 0
 metadata/_custom_type_script = "uid://dn3bjdtw18ykg"
 
 [sub_resource type="Resource" id="Resource_t61j7"]
