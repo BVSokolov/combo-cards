@@ -14,16 +14,6 @@ var card_harvested_or_preserved_listener_func_name: String = '_on_newly_combined
 
 var current_phase: TurnPhase.NAME = -1
 
-var cards_played: Array[PlayerCard]
-
-func _ready():
-	cards_played.resize(2)
-	cards_played.fill(null)
-
-func add_card_played(card: PlayerCard) -> void:
-	cards_played.pop_back()
-	cards_played.push_front(card)
-
 func _process(_delta):
 	pass
 
@@ -57,23 +47,17 @@ func _on_deck_pressed() -> void:
 		print('player hand full, end draw phase')
 		end_phase.emit()
 
-func reset_cards_played() -> void:
-	for card_played in cards_played:
-		if null == card_played:
-			return
+func reset_cards_played(cards_played: Array[Card]) -> void:
+	for card in cards_played:
+		card.reset()
 
-		card_played.reset()
-		if current_phase != TurnPhase.NAME.COMBO_BONUS:
-			break
-	cards_played.fill(null)
-
-func _on_newly_combined_card_pressed(card: Card) -> void:
+func _on_newly_combined_card_pressed(card: Card, cards_played: Array) -> void:
 	var card_resource = card.get_resource()
   # if ['harvested_veg', 'preserved_veg'].has(card_resource.get_card_name()):
 
   #check if card was destroyed by hail
 	if card_resource.get_card_name() == 'destroyed':
-		reset_cards_played()
+		reset_cards_played(cards_played)
 		print('card destroyed, end combo phase')
 		end_phase.emit()
 		return
@@ -82,7 +66,7 @@ func _on_newly_combined_card_pressed(card: Card) -> void:
 	if ['points'].has(card_resource.get_card_name()):
 		get_tree().call_group("CombinationListeners", card_harvested_or_preserved_listener_func_name, card)
 
-		reset_cards_played()
+		reset_cards_played(cards_played)
 
 		print('points cashed, end combo phase')
 		end_phase.emit()
@@ -91,7 +75,7 @@ func _on_newly_combined_card_pressed(card: Card) -> void:
   #check if we have space to prepare the card and do so
 	for prepared_card in prepared_hand_nodes:
 		if cards_played.has(prepared_card) or not prepared_card.is_init():
-			reset_cards_played()
+			reset_cards_played(cards_played)
 			prepared_card.init(card_resource, prepared_card_listener_func_name)
 			get_tree().call_group("CombinationListeners", card_prepared_listener_func_name, card)
 
@@ -99,7 +83,3 @@ func _on_newly_combined_card_pressed(card: Card) -> void:
 			if current_phase == TurnPhase.NAME.COMBO:
 				end_phase.emit()
 			break
-
-
-func _on_card_card_pressed(card: Card) -> void:
-	add_card_played(card)

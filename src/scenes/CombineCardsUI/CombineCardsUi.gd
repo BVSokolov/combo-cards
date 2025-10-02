@@ -51,10 +51,10 @@ func process_combination():
 
 	if left_card_name == 'event_hail':
 		var resource = Destroyed.new()
-		%NewCombinedCard.init(resource, '_on_newly_combined_card_pressed')
+		%NewCombinedCard.init(resource, '_on_newly_combined_card_pressed', [right_card] as Array[Card])
 	elif combo_mapping.has(left_card_name) and combo_mapping[left_card_name].has(right_card_name):
 		var resource = combo_mapping[left_card_name][right_card_name]
-		%NewCombinedCard.init(resource, '_on_newly_combined_card_pressed')
+		%NewCombinedCard.init(resource, '_on_newly_combined_card_pressed', [left_card, right_card]  as Array[Card])
 
 
 func _on_event_card_clicked(card: Card) -> void:

@@ -23,6 +23,7 @@ unique_name_in_owner = true
 layout_mode = 1
 
 [node name="Events" parent="." instance=ExtResource("2_3ioa8")]
+layout_mode = 0
 
 [node name="CombineCardsUI" parent="." instance=ExtResource("3_5llug")]
 layout_mode = 1
