@@ -4,7 +4,7 @@ class_name DeckCard extends Resource
 @export var count: int
 
 func get_card() -> CardResource:
-  return card
+	return card
 
 func get_count() -> int:
-  return count
+	return count
