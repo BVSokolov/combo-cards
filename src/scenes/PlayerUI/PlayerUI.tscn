@@ -1,12 +1,80 @@
-[gd_scene load_steps=3 format=3 uid="uid://d2hj3br2ushrv"]
+[gd_scene load_steps=6 format=3 uid="uid://d2hj3br2ushrv"]
 
 [ext_resource type="Script" uid="uid://dcddb6vafbv3" path="res://src/scenes/PlayerUI/PlayerUI.gd" id="1_0bk6h"]
 [ext_resource type="Theme" uid="uid://cgtt3m2qrfdic" path="res://src/themes/main.tres" id="1_4hyal"]
 
-[node name="PlayerUI" type="CanvasLayer" groups=["CombinationListeners", "TurnPhaseComponents"]]
+[sub_resource type="Animation" id="Animation_ffl8i"]
+resource_name = "phase_changed"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("NotificationContainer:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 2, 3),
+"transitions": PackedFloat32Array(3, 1, -3, 1),
+"update": 0,
+"values": [Vector2(778, -140), Vector2(778, 0), Vector2(778, 0), Vector2(778, -140)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("NotificationContainer:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1, 2, 3),
+"transitions": PackedFloat32Array(3, 1, -3, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_nou7l"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("NotificationContainer:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(778, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("NotificationContainer:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ofho7"]
+_data = {
+&"RESET": SubResource("Animation_nou7l"),
+&"phase_changed": SubResource("Animation_ffl8i")
+}
+
+[node name="PlayerUI" type="Control" groups=["CombinationListeners", "TurnPhaseComponents"]]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 script = ExtResource("1_0bk6h")
 
-[node name="MarginContainer" type="MarginContainer" parent="."]
+[node name="MarginContainerRight" type="MarginContainer" parent="."]
+layout_mode = 1
 anchors_preset = 11
 anchor_left = 1.0
 anchor_right = 1.0
@@ -17,34 +85,34 @@ grow_vertical = 2
 theme = ExtResource("1_4hyal")
 theme_type_variation = &"ScreenMargin"
 
-[node name="PanelContainer" type="PanelContainer" parent="MarginContainer"]
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainerRight"]
 layout_mode = 2
 size_flags_horizontal = 8
 size_flags_vertical = 0
 
-[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/PanelContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainerRight/PanelContainer"]
 layout_mode = 2
 theme_override_constants/margin_left = 8
 theme_override_constants/margin_top = 4
 theme_override_constants/margin_right = 8
 theme_override_constants/margin_bottom = 4
 
-[node name="HBoxContainer" type="VBoxContainer" parent="MarginContainer/PanelContainer/MarginContainer"]
+[node name="HBoxContainer" type="VBoxContainer" parent="MarginContainerRight/PanelContainer/MarginContainer"]
 layout_mode = 2
 
-[node name="ScoreLabel" type="Label" parent="MarginContainer/PanelContainer/MarginContainer/HBoxContainer"]
+[node name="ScoreLabel" type="Label" parent="MarginContainerRight/PanelContainer/MarginContainer/HBoxContainer"]
 layout_mode = 2
 text = "total score"
 horizontal_alignment = 2
 uppercase = true
 
-[node name="Score" type="Label" parent="MarginContainer/PanelContainer/MarginContainer/HBoxContainer"]
+[node name="Score" type="Label" parent="MarginContainerRight/PanelContainer/MarginContainer/HBoxContainer"]
 unique_name_in_owner = true
 layout_mode = 2
 text = "0"
 horizontal_alignment = 2
 
-[node name="EndPhaseButton" type="Button" parent="MarginContainer"]
+[node name="EndPhaseButton" type="Button" parent="MarginContainerRight"]
 unique_name_in_owner = true
 layout_mode = 2
 size_flags_horizontal = 8
@@ -53,4 +121,59 @@ theme = ExtResource("1_4hyal")
 theme_type_variation = &"EndPhaseButton"
 text = "END PHASE"
 
-[connection signal="pressed" from="MarginContainer/EndPhaseButton" to="." method="_on_end_phase_button_pressed"]
+[node name="NotificationContainer" type="MarginContainer" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -182.0
+offset_top = -140.0
+offset_right = 182.0
+offset_bottom = 22.0002
+grow_horizontal = 2
+theme_override_constants/margin_top = 80
+
+[node name="PanelContainer" type="PanelContainer" parent="NotificationContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="MarginContainer" type="MarginContainer" parent="NotificationContainer/PanelContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 56
+theme_override_constants/margin_top = 24
+theme_override_constants/margin_right = 56
+theme_override_constants/margin_bottom = 24
+
+[node name="HBoxContainer" type="HBoxContainer" parent="NotificationContainer/PanelContainer/MarginContainer"]
+layout_direction = 2
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="PhaseNameLabel" type="Label" parent="NotificationContainer/PanelContainer/MarginContainer/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "player draw"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="Label" type="Label" parent="NotificationContainer/PanelContainer/MarginContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "phase"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="NotificationContainer"]
+unique_name_in_owner = true
+root_node = NodePath("../..")
+libraries = {
+&"": SubResource("AnimationLibrary_ofho7")
+}
+
+[connection signal="pressed" from="MarginContainerRight/EndPhaseButton" to="." method="_on_end_phase_button_pressed"]
+[connection signal="animation_finished" from="NotificationContainer/AnimationPlayer" to="." method="_on_animation_player_animation_finished"]

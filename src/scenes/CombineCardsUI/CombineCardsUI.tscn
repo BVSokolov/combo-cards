@@ -4,10 +4,19 @@
 [ext_resource type="Script" uid="uid://c5lis1532r7gf" path="res://src/scenes/CombineCardsUI/CombineCardsUi.gd" id="1_xx4gh"]
 [ext_resource type="PackedScene" uid="uid://bqnexigap7rvi" path="res://src/scenes/Card/Card.tscn" id="2_xx4gh"]
 
-[node name="CombineCardsUI" type="CanvasLayer" groups=["CardListeners", "CombinationListeners", "TurnPhaseComponents"]]
+[node name="CombineCardsUI" type="Control" groups=["CardListeners", "CombinationListeners", "TurnPhaseComponents"]]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
 script = ExtResource("1_xx4gh")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -28,30 +37,18 @@ theme_override_constants/separation = 12
 [node name="CardSlot" parent="VBoxContainer/HBoxContainer" instance=ExtResource("1_bjboo")]
 layout_mode = 2
 
-[node name="EventCard" parent="VBoxContainer/HBoxContainer/CardSlot" instance=ExtResource("2_xx4gh")]
+[node name="LeftCard" parent="VBoxContainer/HBoxContainer/CardSlot" instance=ExtResource("2_xx4gh")]
 unique_name_in_owner = true
 layout_mode = 2
 theme_type_variation = &"EventCard"
 disabled = true
 
-[node name="CombinedCard_1" parent="VBoxContainer/HBoxContainer/CardSlot" instance=ExtResource("2_xx4gh")]
-unique_name_in_owner = true
-layout_mode = 2
-theme_type_variation = &"CombinedCard"
-disabled = true
-
 [node name="CardSlot_2" parent="VBoxContainer/HBoxContainer" instance=ExtResource("1_bjboo")]
 layout_mode = 2
 
-[node name="PlayerCard" parent="VBoxContainer/HBoxContainer/CardSlot_2" instance=ExtResource("2_xx4gh")]
+[node name="RightCard" parent="VBoxContainer/HBoxContainer/CardSlot_2" instance=ExtResource("2_xx4gh")]
 unique_name_in_owner = true
 layout_mode = 2
-disabled = true
-
-[node name="CombinedCard_2" parent="VBoxContainer/HBoxContainer/CardSlot_2" instance=ExtResource("2_xx4gh")]
-unique_name_in_owner = true
-layout_mode = 2
-theme_type_variation = &"CombinedCard"
 disabled = true
 
 [node name="CenterContainer" type="CenterContainer" parent="VBoxContainer"]
@@ -65,3 +62,6 @@ unique_name_in_owner = true
 layout_mode = 2
 theme_type_variation = &"CombinedCard"
 disabled = true
+
+[connection signal="card_pressed" from="VBoxContainer/HBoxContainer/CardSlot/LeftCard" to="." method="_on_left_card_card_pressed"]
+[connection signal="card_pressed" from="VBoxContainer/HBoxContainer/CardSlot_2/RightCard" to="." method="_on_right_card_card_pressed"]
